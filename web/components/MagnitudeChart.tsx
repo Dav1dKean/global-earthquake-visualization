@@ -7,7 +7,6 @@ import {
   useState,
 } from "react";
 
-
 const Plot = dynamic(
   () => import("react-plotly.js"),
   {
@@ -15,9 +14,12 @@ const Plot = dynamic(
   }
 );
 
+type MagnitudeCounts =
+  Record<string, number>;
 
 type YearMagnitudeData = {
   year: number;
+
   status:
     | "available"
     | "missing"
@@ -26,65 +28,73 @@ type YearMagnitudeData = {
   total_events: number;
 
   counts:
-    | Record<string, number>
-    | null;
+    MagnitudeCounts;
 };
-
 
 type MaximumEvent = {
   date: string;
   magnitude: number;
-  location: string;
   depth_km: number | null;
+  location: string;
 };
-
 
 type MagnitudeData = {
   classes: string[];
 
   all_years: {
     total_events: number;
-    counts: Record<string, number>;
+    counts:
+      MagnitudeCounts;
   };
 
-  years: YearMagnitudeData[];
+  years:
+    YearMagnitudeData[];
 
   maximum: {
     magnitude: number;
     occurrences: number;
-    events: MaximumEvent[];
+    events:
+      MaximumEvent[];
   };
 };
-
 
 export default function MagnitudeChart() {
 
   const [
     data,
     setData,
-  ] = useState<MagnitudeData | null>(
-    null
-  );
-
-
-  // -------------------------------------------------------
-  // "all" means entire dataset.
-  // Otherwise it stores a year such as "2025".
-  // -------------------------------------------------------
+  ] =
+    useState<
+      MagnitudeData | null
+    >(null);
 
   const [
     selectedPeriod,
     setSelectedPeriod,
-  ] = useState("all");
+  ] =
+    useState("all");
 
+  const [
+    scaleMode,
+    setScaleMode,
+  ] =
+    useState<
+      "linear" | "log"
+    >("linear");
+
+  const [
+    loading,
+    setLoading,
+  ] =
+    useState(true);
 
   // -------------------------------------------------------
-  // Load prepared magnitude data.
+  // Load data
   // -------------------------------------------------------
 
   useEffect(() => {
 
-    async function loadMagnitudeData() {
+    async function loadData() {
 
       try {
 
@@ -94,9 +104,11 @@ export default function MagnitudeChart() {
           );
 
         if (!response.ok) {
+
           throw new Error(
             "Unable to load magnitude data."
           );
+
         }
 
         const result:
@@ -112,155 +124,170 @@ export default function MagnitudeChart() {
           error
         );
 
+      } finally {
+
+        setLoading(false);
+
       }
 
     }
 
-    loadMagnitudeData();
+    loadData();
 
   }, []);
 
-
   // -------------------------------------------------------
-  // Determine which counts should be shown.
+  // Selected data
   // -------------------------------------------------------
 
   const selectedData =
     useMemo(() => {
 
-      if (!data) return null;
-
-
-      if (
-        selectedPeriod === "all"
-      ) {
-
-        return {
-          label: "1900–2026",
-          status: "available",
-          total:
-            data.all_years
-              .total_events,
-          counts:
-            data.all_years.counts,
-        };
-
-      }
-
-
-      const year =
-        Number(selectedPeriod);
-
-
-      const yearData =
-        data.years.find(
-          (item) =>
-            item.year === year
-        );
-
-
-      if (!yearData) {
+      if (!data) {
         return null;
       }
 
+      if (selectedPeriod === "all") {
+  return {
+    status: "available" as const,
+    total_events: data.all_years.total_events,
+    counts: data.all_years.counts,
+  };
+}
 
-      return {
-        label:
-          String(year),
-
-        status:
-          yearData.status,
-
-        total:
-          yearData.total_events,
-
-        counts:
-          yearData.counts,
-      };
+      return (
+        data.years.find(
+          (item) =>
+            item.year ===
+            Number(
+              selectedPeriod
+            )
+        ) ?? null
+      );
 
     }, [
       data,
       selectedPeriod,
     ]);
 
+  // -------------------------------------------------------
+  // Values for bars
+  // -------------------------------------------------------
+
+  const counts =
+    useMemo(() => {
+
+      if (
+        !data ||
+        !selectedData
+      ) {
+        return [];
+      }
+
+      return data.classes.map(
+        (category) =>
+          selectedData
+            .counts[
+              category
+            ] ?? 0
+      );
+
+    }, [
+      data,
+      selectedData,
+    ]);
 
   // -------------------------------------------------------
-  // Reset View 4
+  // Reset
   // -------------------------------------------------------
 
   function resetView() {
 
-    setSelectedPeriod("all");
+    setSelectedPeriod(
+      "all"
+    );
+
+    setScaleMode(
+      "linear"
+    );
 
   }
 
+  // -------------------------------------------------------
+  // Loading
+  // -------------------------------------------------------
 
   if (
-    !data ||
-    !selectedData
+    loading ||
+    !data
   ) {
 
     return (
-      <div className="mt-10 rounded-2xl border border-slate-200 p-10 text-center text-slate-500">
+      <div className="mt-10 rounded-2xl border border-slate-200 p-10 text-center text-slate-700">
         Loading magnitude data…
       </div>
     );
 
   }
 
+  if (!selectedData) {
 
-  // -------------------------------------------------------
-  // Chart values
-  // -------------------------------------------------------
-
-  const counts =
-    data.classes.map(
-      (category) =>
-
-        selectedData.counts
-          ? selectedData.counts[
-              category
-            ] ?? 0
-          : 0
-
+    return (
+      <div className="mt-10 rounded-2xl border border-slate-200 p-10 text-center text-slate-700">
+        No magnitude data are available for this selection.
+      </div>
     );
 
+  }
 
-  const maximumEvent =
-    data.maximum.events[0];
+  const strongestEvent =
+    data.maximum
+      .events[0];
 
+  const greatCount =
+    data
+      .all_years
+      .counts[
+        "Great (M8+)"
+      ] ?? 0;
+
+  // -------------------------------------------------------
+  // Render
+  // -------------------------------------------------------
 
   return (
 
     <div className="mt-10">
 
-      {/* --------------------------------------------------
-          CONTROLS
-      -------------------------------------------------- */}
+      {/* CONTROLS */}
 
       <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
 
-        <div className="flex flex-wrap items-end justify-between gap-6">
+        <div className="grid gap-6 md:grid-cols-4">
 
-
-          {/* PERIOD SELECTOR */}
+          {/* TIME PERIOD */}
 
           <div>
 
             <label
               htmlFor="magnitude-period"
-              className="mb-2 block font-semibold text-slate-700"
+              className="mb-2 block font-semibold text-slate-800"
             >
               Time period
             </label>
 
-
             <select
               id="magnitude-period"
-              value={selectedPeriod}
-              onChange={(event) =>
+              value={
+                selectedPeriod
+              }
+              onChange={(
+                event
+              ) =>
                 setSelectedPeriod(
-                  event.target.value
+                  event
+                    .target
+                    .value
                 )
               }
               className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-slate-800"
@@ -270,15 +297,20 @@ export default function MagnitudeChart() {
                 All years
               </option>
 
-
               {data.years.map(
                 (item) => (
 
                   <option
-                    key={item.year}
-                    value={item.year}
+                    key={
+                      item.year
+                    }
+                    value={
+                      item.year
+                    }
                   >
-                    {item.year}
+                    {
+                      item.year
+                    }
                   </option>
 
                 )
@@ -288,290 +320,387 @@ export default function MagnitudeChart() {
 
           </div>
 
-
-          {/* SUMMARY */}
+          {/* EVENTS */}
 
           <div>
 
-            <p className="text-sm uppercase tracking-[0.12em] text-slate-500">
+            <p className="text-sm font-semibold uppercase tracking-[0.15em] text-slate-600">
               Events represented
             </p>
 
-            <p className="mt-1 font-mono text-2xl font-bold">
-              {selectedData.total.toLocaleString()}
+            <p className="mt-2 font-mono text-3xl font-bold text-slate-900">
+              {
+                selectedData
+                  .total_events
+                  .toLocaleString()
+              }
             </p>
 
           </div>
 
+          {/* SCALE */}
+
+          <div>
+
+            <p className="mb-2 text-sm font-semibold uppercase tracking-[0.15em] text-slate-600">
+              Y-axis scale
+            </p>
+
+            <div className="inline-flex rounded-lg border border-slate-300 bg-white p-1">
+
+              <button
+                type="button"
+                onClick={() =>
+                  setScaleMode(
+                    "linear"
+                  )
+                }
+                className={`rounded-md px-4 py-2 text-sm font-semibold transition ${
+                  scaleMode ===
+                  "linear"
+                    ? "bg-slate-900 text-white"
+                    : "text-slate-700 hover:bg-slate-100"
+                }`}
+              >
+                Linear
+              </button>
+
+              <button
+                type="button"
+                onClick={() =>
+                  setScaleMode(
+                    "log"
+                  )
+                }
+                className={`rounded-md px-4 py-2 text-sm font-semibold transition ${
+                  scaleMode ===
+                  "log"
+                    ? "bg-slate-900 text-white"
+                    : "text-slate-700 hover:bg-slate-100"
+                }`}
+              >
+                Log
+              </button>
+
+            </div>
+
+          </div>
 
           {/* RESET */}
 
-          <button
-            type="button"
-            onClick={resetView}
-            className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-100"
-          >
-            Reset
-          </button>
+          <div className="flex items-end justify-end">
+
+            <button
+              type="button"
+              onClick={
+                resetView
+              }
+              className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-800 hover:bg-slate-100"
+            >
+              Reset
+            </button>
+
+          </div>
 
         </div>
 
-
-        {/* MISSING/PARTIAL WARNINGS */}
+        {/* WARNINGS */}
 
         {selectedData.status ===
           "missing" && (
 
           <div className="mt-5 rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
-            No earthquake records are available for {selectedData.label} in the source dataset.
+            No earthquake records are available for this year in the source dataset.
           </div>
 
         )}
-
 
         {selectedData.status ===
           "partial" && (
 
           <div className="mt-5 rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
-            {selectedData.label} contains only partial source coverage and should not be compared directly with complete years.
+            This year contains only partial source coverage.
           </div>
 
         )}
 
       </div>
 
+      {/* CHART */}
 
-      {/* --------------------------------------------------
-          MAGNITUDE BAR CHART
-      -------------------------------------------------- */}
+      <div className="mt-6 overflow-hidden rounded-2xl border border-slate-200 bg-white">
 
-      {selectedData.status !==
-        "missing" && (
+        <Plot
 
-        <div className="mt-6 overflow-hidden rounded-2xl border border-slate-200 bg-white">
+          data={[
+            {
+              type: "bar",
 
-          <Plot
+              x:
+                data.classes,
 
-            data={[
-              {
-                type: "bar",
+              y:
+                counts,
 
-                x:
-                  data.classes,
+              text:
+                counts.map(
+                  (value) =>
+                    value
+                      .toLocaleString()
+                ),
 
-                y:
-                  counts,
+              textposition:
+                "outside",
 
-                text:
-                  counts.map(
-                    (count) =>
-                      count.toLocaleString()
-                  ),
+              cliponaxis:
+                false,
 
-                textposition:
-                  "outside",
+              marker: {
+                color:
+                  "#2563eb",
+              },
 
-                cliponaxis:
-                  false,
+              hovertemplate:
+                "<b>%{x}</b><br>" +
+                "Recorded earthquakes: %{y:,}" +
+                "<extra></extra>",
 
-                marker: {
-                  color:
-                    "#2563eb",
-                },
-
-                hovertemplate:
-                  "<b>%{x}</b><br>" +
-                  "Recorded earthquakes: %{y:,}" +
-                  "<extra></extra>",
-
-              } as any,
-            ]}
-
+            } as any,
+          ]}
 
           layout={{
-  autosize: true,
+            autosize: true,
 
-  height: 520,
+            height: 520,
 
-  font: {
-    color: "#334155",
-    size: 14,
-  },
+            font: {
+              color:
+                "#334155",
+              size: 14,
+            },
 
-  title: {
-    text:
-      selectedPeriod ===
-      "all"
-        ? "Magnitude Distribution — Full Dataset"
-        : `Magnitude Distribution — ${selectedPeriod}`,
+            title: {
+              text:
+                selectedPeriod ===
+                "all"
+                  ? "Magnitude Distribution — Full Dataset"
+                  : `Magnitude Distribution — ${selectedPeriod}`,
 
-    font: {
-      color: "#1e293b",
-      size: 18,
-    },
-  },
+              font: {
+                color:
+                  "#1e293b",
+                size: 18,
+              },
+            },
 
-  margin: {
-    l: 115,
-    r: 40,
-    t: 80,
-    b: 100,
-  },
+            margin: {
+              l: 115,
+              r: 40,
+              t: 80,
+              b: 100,
+            },
 
-  xaxis: {
-    title: {
-      text:
-        "Magnitude Class",
+            xaxis: {
 
-      font: {
-        color: "#1e293b",
-        size: 16,
-      },
+              title: {
+                text:
+                  "Magnitude Class",
 
-      standoff: 18,
-    },
+                font: {
+                  color:
+                    "#1e293b",
+                  size: 16,
+                },
 
-    tickfont: {
-      color: "#334155",
-      size: 13,
-    },
-  },
+                standoff: 18,
+              },
 
-  yaxis: {
-    title: {
-      text:
-        "Recorded Earthquakes",
+              tickfont: {
+                color:
+                  "#334155",
+                size: 13,
+              },
 
-      font: {
-        color: "#1e293b",
-        size: 16,
-      },
+            },
 
-      standoff: 24,
-    },
+            yaxis: {
 
-    tickfont: {
-      color: "#334155",
-      size: 13,
-    },
+              title: {
+                text:
+                  scaleMode ===
+                  "linear"
+                    ? "Recorded Earthquakes"
+                    : "Recorded Earthquakes (Log Scale)",
 
-    rangemode:
-      "tozero",
+                font: {
+                  color:
+                    "#1e293b",
+                  size: 16,
+                },
 
-    gridcolor:
-      "#e2e8f0",
-  },
+                standoff: 24,
+              },
 
-  paper_bgcolor:
-    "#ffffff",
+              tickfont: {
+                color:
+                  "#334155",
+                size: 13,
+              },
 
-  plot_bgcolor:
-    "#ffffff",
+              type:
+                scaleMode ===
+                "log"
+                  ? "log"
+                  : "linear",
 
-  showlegend:
-    false,
-}}
+              rangemode:
+                scaleMode ===
+                "linear"
+                  ? "tozero"
+                  : undefined,
 
+              gridcolor:
+                "#e2e8f0",
 
-            config={{
-              responsive: true,
-              displaylogo: false,
-            }}
+            },
 
+            paper_bgcolor:
+              "#ffffff",
 
-            style={{
-              width: "100%",
-            }}
+            plot_bgcolor:
+              "#ffffff",
 
-          />
+            showlegend:
+              false,
+          }}
 
-        </div>
+          config={{
+            responsive:
+              true,
 
-      )}
+            displaylogo:
+              false,
+          }}
 
+          style={{
+            width:
+              "100%",
+          }}
 
-      {/* --------------------------------------------------
-          EXTREME-EVENT FACTS
-      -------------------------------------------------- */}
+        />
+
+      </div>
+
+      {/* SCALE EXPLANATION */}
+
+      <div className="mt-5 space-y-2 text-sm leading-6 text-slate-700">
+
+        <p>
+          The linear scale is the default because it preserves a direct
+          comparison of earthquake counts from zero. Exact values are
+          displayed above the bars so rare Major and Great earthquakes
+          remain readable even when their bars are small.
+        </p>
+
+        <p>
+          The optional logarithmic scale compresses the large differences
+          between magnitude classes and makes rare categories easier to
+          compare. Bar heights on the logarithmic scale should not be
+          interpreted as linear differences.
+        </p>
+
+      </div>
+
+      {/* ALL YEARS SUMMARY */}
 
       {selectedPeriod ===
         "all" && (
 
         <div className="mt-6 grid gap-4 md:grid-cols-2">
 
-          {/* M8+ */}
+          <div className="rounded-2xl border border-slate-200 bg-white p-6">
 
-          <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
-
-            <p className="text-sm font-semibold uppercase tracking-[0.15em] text-slate-500">
+            <p className="text-sm font-semibold uppercase tracking-[0.15em] text-slate-600">
               Great earthquakes
             </p>
 
-            <p className="mt-2 text-4xl font-bold text-slate-900">
+            <p className="mt-3 text-4xl font-bold text-slate-900">
               {
-                data.all_years
-                  .counts[
-                  "Great (M8+)"
-                ]
+                greatCount
+                  .toLocaleString()
               }
             </p>
 
-            <p className="mt-2 text-slate-600">
+            <p className="mt-2 text-sm leading-6 text-slate-700">
               M8.0+ earthquakes appear in the complete catalog.
             </p>
 
           </div>
 
+          <div className="rounded-2xl border border-slate-200 bg-white p-6">
 
-          {/* MAXIMUM */}
-
-          <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
-
-            <p className="text-sm font-semibold uppercase tracking-[0.15em] text-slate-500">
+            <p className="text-sm font-semibold uppercase tracking-[0.15em] text-slate-600">
               Strongest event in dataset
             </p>
 
-            <p className="mt-2 text-4xl font-bold text-slate-900">
-              M{data.maximum.magnitude}
+            <p className="mt-3 text-4xl font-bold text-slate-900">
+              M
+              {
+                data
+                  .maximum
+                  .magnitude
+                  .toFixed(1)
+              }
             </p>
 
-            <p className="mt-2 text-slate-600">
-
-              Occurred {
-                data.maximum
+            <p className="mt-2 text-sm text-slate-700">
+              Occurred{" "}
+              {
+                data
+                  .maximum
                   .occurrences
-              } time{
-                data.maximum
-                  .occurrences === 1
+              }{" "}
+              time
+              {
+                data
+                  .maximum
+                  .occurrences ===
+                1
                   ? ""
                   : "s"
               } in this dataset.
-
             </p>
 
+            {strongestEvent && (
 
-            {maximumEvent && (
+              <p className="mt-3 text-sm leading-6 text-slate-700">
 
-              <p className="mt-3 text-sm leading-6 text-slate-500">
-
-                {maximumEvent.date}
+                {
+                  strongestEvent
+                    .date
+                }
 
                 {" · "}
 
-                {maximumEvent.location}
+                {
+                  strongestEvent
+                    .location
+                }
 
-                {maximumEvent.depth_km !==
+                {
+                  strongestEvent
+                    .depth_km !==
                   null && (
-                  <>
-                    {" · "}
-                    Depth{" "}
-                    {
-                      maximumEvent
-                        .depth_km
-                    }{" "}
-                    km
-                  </>
-                )}
+                    <>
+                      {" · Depth "}
+                      {
+                        strongestEvent
+                          .depth_km
+                      }
+                      {" km"}
+                    </>
+                  )
+                }
 
               </p>
 
@@ -583,22 +712,14 @@ export default function MagnitudeChart() {
 
       )}
 
+      <p className="mt-5 text-sm leading-6 text-slate-700">
 
-      {/* --------------------------------------------------
-          INTERPRETATION
-      -------------------------------------------------- */}
+        Lower-magnitude earthquakes dominate the catalog, while Major
+        and Great earthquakes are comparatively rare. The exact counts
+        above the bars preserve access to rare categories even when the
+        linear-scale bars are very small.
 
-      <div className="mt-5 text-sm leading-6 text-slate-500">
-
-        <p>
-          Lower-magnitude earthquakes dominate the catalog,
-          while Major and Great earthquakes are comparatively
-          rare. Exact counts are displayed above the bars so
-          rare categories remain readable even when their bars
-          are very small.
-        </p>
-
-      </div>
+      </p>
 
     </div>
 

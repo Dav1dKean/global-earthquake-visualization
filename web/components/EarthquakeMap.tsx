@@ -327,9 +327,16 @@ export default function EarthquakeMap() {
               plot_bgcolor: "#ffffff",
             }}
             config={{
-              responsive: true,
-              displaylogo: false,
-            }}
+  responsive: true,
+  displaylogo: false,
+
+  // Keep normal webpage scrolling when the mouse
+  // passes over the map.
+  scrollZoom: false,
+
+  // Keep Plotly's map controls available.
+  displayModeBar: true,
+}}
             style={{
               width: "100%",
             }}
