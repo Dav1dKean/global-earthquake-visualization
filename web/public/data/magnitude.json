@@ -1,0 +1,1509 @@
+{
+  "classes": [
+    "Light (M4.5-4.9)",
+    "Moderate (M5-5.9)",
+    "Strong (M6-6.9)",
+    "Major (M7-7.9)",
+    "Great (M8+)"
+  ],
+  "all_years": {
+    "total_events": 230805,
+    "counts": {
+      "Light (M4.5-4.9)": 145317,
+      "Moderate (M5-5.9)": 72810,
+      "Strong (M6-6.9)": 11242,
+      "Major (M7-7.9)": 1349,
+      "Great (M8+)": 87
+    }
+  },
+  "years": [
+    {
+      "year": 1900,
+      "status": "available",
+      "total_events": 14,
+      "counts": {
+        "Light (M4.5-4.9)": 1,
+        "Moderate (M5-5.9)": 0,
+        "Strong (M6-6.9)": 0,
+        "Major (M7-7.9)": 13,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1901,
+      "status": "available",
+      "total_events": 18,
+      "counts": {
+        "Light (M4.5-4.9)": 0,
+        "Moderate (M5-5.9)": 1,
+        "Strong (M6-6.9)": 2,
+        "Major (M7-7.9)": 15,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1902,
+      "status": "available",
+      "total_events": 18,
+      "counts": {
+        "Light (M4.5-4.9)": 3,
+        "Moderate (M5-5.9)": 3,
+        "Strong (M6-6.9)": 2,
+        "Major (M7-7.9)": 10,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1903,
+      "status": "available",
+      "total_events": 18,
+      "counts": {
+        "Light (M4.5-4.9)": 4,
+        "Moderate (M5-5.9)": 0,
+        "Strong (M6-6.9)": 5,
+        "Major (M7-7.9)": 8,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1904,
+      "status": "available",
+      "total_events": 28,
+      "counts": {
+        "Light (M4.5-4.9)": 2,
+        "Moderate (M5-5.9)": 5,
+        "Strong (M6-6.9)": 8,
+        "Major (M7-7.9)": 13,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1905,
+      "status": "available",
+      "total_events": 79,
+      "counts": {
+        "Light (M4.5-4.9)": 4,
+        "Moderate (M5-5.9)": 19,
+        "Strong (M6-6.9)": 35,
+        "Major (M7-7.9)": 20,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1906,
+      "status": "available",
+      "total_events": 97,
+      "counts": {
+        "Light (M4.5-4.9)": 3,
+        "Moderate (M5-5.9)": 16,
+        "Strong (M6-6.9)": 56,
+        "Major (M7-7.9)": 18,
+        "Great (M8+)": 4
+      }
+    },
+    {
+      "year": 1907,
+      "status": "available",
+      "total_events": 87,
+      "counts": {
+        "Light (M4.5-4.9)": 2,
+        "Moderate (M5-5.9)": 20,
+        "Strong (M6-6.9)": 47,
+        "Major (M7-7.9)": 17,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1908,
+      "status": "available",
+      "total_events": 39,
+      "counts": {
+        "Light (M4.5-4.9)": 1,
+        "Moderate (M5-5.9)": 8,
+        "Strong (M6-6.9)": 19,
+        "Major (M7-7.9)": 11,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1909,
+      "status": "available",
+      "total_events": 65,
+      "counts": {
+        "Light (M4.5-4.9)": 4,
+        "Moderate (M5-5.9)": 17,
+        "Strong (M6-6.9)": 28,
+        "Major (M7-7.9)": 16,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1910,
+      "status": "available",
+      "total_events": 76,
+      "counts": {
+        "Light (M4.5-4.9)": 2,
+        "Moderate (M5-5.9)": 17,
+        "Strong (M6-6.9)": 40,
+        "Major (M7-7.9)": 16,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1911,
+      "status": "available",
+      "total_events": 53,
+      "counts": {
+        "Light (M4.5-4.9)": 3,
+        "Moderate (M5-5.9)": 8,
+        "Strong (M6-6.9)": 28,
+        "Major (M7-7.9)": 13,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1912,
+      "status": "available",
+      "total_events": 110,
+      "counts": {
+        "Light (M4.5-4.9)": 7,
+        "Moderate (M5-5.9)": 44,
+        "Strong (M6-6.9)": 48,
+        "Major (M7-7.9)": 11,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1913,
+      "status": "available",
+      "total_events": 88,
+      "counts": {
+        "Light (M4.5-4.9)": 3,
+        "Moderate (M5-5.9)": 12,
+        "Strong (M6-6.9)": 62,
+        "Major (M7-7.9)": 11,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1914,
+      "status": "available",
+      "total_events": 74,
+      "counts": {
+        "Light (M4.5-4.9)": 3,
+        "Moderate (M5-5.9)": 17,
+        "Strong (M6-6.9)": 38,
+        "Major (M7-7.9)": 15,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1915,
+      "status": "available",
+      "total_events": 94,
+      "counts": {
+        "Light (M4.5-4.9)": 4,
+        "Moderate (M5-5.9)": 19,
+        "Strong (M6-6.9)": 61,
+        "Major (M7-7.9)": 10,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1916,
+      "status": "available",
+      "total_events": 84,
+      "counts": {
+        "Light (M4.5-4.9)": 2,
+        "Moderate (M5-5.9)": 28,
+        "Strong (M6-6.9)": 41,
+        "Major (M7-7.9)": 13,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1917,
+      "status": "available",
+      "total_events": 153,
+      "counts": {
+        "Light (M4.5-4.9)": 5,
+        "Moderate (M5-5.9)": 64,
+        "Strong (M6-6.9)": 72,
+        "Major (M7-7.9)": 10,
+        "Great (M8+)": 2
+      }
+    },
+    {
+      "year": 1918,
+      "status": "available",
+      "total_events": 135,
+      "counts": {
+        "Light (M4.5-4.9)": 2,
+        "Moderate (M5-5.9)": 39,
+        "Strong (M6-6.9)": 82,
+        "Major (M7-7.9)": 9,
+        "Great (M8+)": 3
+      }
+    },
+    {
+      "year": 1919,
+      "status": "available",
+      "total_events": 112,
+      "counts": {
+        "Light (M4.5-4.9)": 2,
+        "Moderate (M5-5.9)": 20,
+        "Strong (M6-6.9)": 79,
+        "Major (M7-7.9)": 9,
+        "Great (M8+)": 2
+      }
+    },
+    {
+      "year": 1920,
+      "status": "available",
+      "total_events": 101,
+      "counts": {
+        "Light (M4.5-4.9)": 2,
+        "Moderate (M5-5.9)": 30,
+        "Strong (M6-6.9)": 62,
+        "Major (M7-7.9)": 5,
+        "Great (M8+)": 2
+      }
+    },
+    {
+      "year": 1921,
+      "status": "available",
+      "total_events": 81,
+      "counts": {
+        "Light (M4.5-4.9)": 0,
+        "Moderate (M5-5.9)": 20,
+        "Strong (M6-6.9)": 53,
+        "Major (M7-7.9)": 8,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1922,
+      "status": "available",
+      "total_events": 102,
+      "counts": {
+        "Light (M4.5-4.9)": 3,
+        "Moderate (M5-5.9)": 18,
+        "Strong (M6-6.9)": 75,
+        "Major (M7-7.9)": 5,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1923,
+      "status": "available",
+      "total_events": 130,
+      "counts": {
+        "Light (M4.5-4.9)": 1,
+        "Moderate (M5-5.9)": 36,
+        "Strong (M6-6.9)": 78,
+        "Major (M7-7.9)": 14,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1924,
+      "status": "available",
+      "total_events": 131,
+      "counts": {
+        "Light (M4.5-4.9)": 4,
+        "Moderate (M5-5.9)": 48,
+        "Strong (M6-6.9)": 71,
+        "Major (M7-7.9)": 7,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1925,
+      "status": "available",
+      "total_events": 165,
+      "counts": {
+        "Light (M4.5-4.9)": 6,
+        "Moderate (M5-5.9)": 53,
+        "Strong (M6-6.9)": 96,
+        "Major (M7-7.9)": 10,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1926,
+      "status": "available",
+      "total_events": 274,
+      "counts": {
+        "Light (M4.5-4.9)": 1,
+        "Moderate (M5-5.9)": 151,
+        "Strong (M6-6.9)": 113,
+        "Major (M7-7.9)": 9,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1927,
+      "status": "available",
+      "total_events": 310,
+      "counts": {
+        "Light (M4.5-4.9)": 2,
+        "Moderate (M5-5.9)": 197,
+        "Strong (M6-6.9)": 99,
+        "Major (M7-7.9)": 12,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1928,
+      "status": "available",
+      "total_events": 308,
+      "counts": {
+        "Light (M4.5-4.9)": 8,
+        "Moderate (M5-5.9)": 181,
+        "Strong (M6-6.9)": 101,
+        "Major (M7-7.9)": 18,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1929,
+      "status": "available",
+      "total_events": 311,
+      "counts": {
+        "Light (M4.5-4.9)": 7,
+        "Moderate (M5-5.9)": 180,
+        "Strong (M6-6.9)": 110,
+        "Major (M7-7.9)": 13,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1930,
+      "status": "available",
+      "total_events": 293,
+      "counts": {
+        "Light (M4.5-4.9)": 12,
+        "Moderate (M5-5.9)": 184,
+        "Strong (M6-6.9)": 93,
+        "Major (M7-7.9)": 4,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1931,
+      "status": "available",
+      "total_events": 302,
+      "counts": {
+        "Light (M4.5-4.9)": 8,
+        "Moderate (M5-5.9)": 171,
+        "Strong (M6-6.9)": 106,
+        "Major (M7-7.9)": 17,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1932,
+      "status": "available",
+      "total_events": 236,
+      "counts": {
+        "Light (M4.5-4.9)": 19,
+        "Moderate (M5-5.9)": 126,
+        "Strong (M6-6.9)": 85,
+        "Major (M7-7.9)": 5,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1933,
+      "status": "available",
+      "total_events": 312,
+      "counts": {
+        "Light (M4.5-4.9)": 43,
+        "Moderate (M5-5.9)": 168,
+        "Strong (M6-6.9)": 93,
+        "Major (M7-7.9)": 7,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1934,
+      "status": "available",
+      "total_events": 290,
+      "counts": {
+        "Light (M4.5-4.9)": 38,
+        "Moderate (M5-5.9)": 136,
+        "Strong (M6-6.9)": 104,
+        "Major (M7-7.9)": 11,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1935,
+      "status": "available",
+      "total_events": 260,
+      "counts": {
+        "Light (M4.5-4.9)": 12,
+        "Moderate (M5-5.9)": 137,
+        "Strong (M6-6.9)": 98,
+        "Major (M7-7.9)": 13,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1936,
+      "status": "available",
+      "total_events": 279,
+      "counts": {
+        "Light (M4.5-4.9)": 16,
+        "Moderate (M5-5.9)": 158,
+        "Strong (M6-6.9)": 96,
+        "Major (M7-7.9)": 9,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1937,
+      "status": "available",
+      "total_events": 245,
+      "counts": {
+        "Light (M4.5-4.9)": 11,
+        "Moderate (M5-5.9)": 136,
+        "Strong (M6-6.9)": 89,
+        "Major (M7-7.9)": 9,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1938,
+      "status": "available",
+      "total_events": 330,
+      "counts": {
+        "Light (M4.5-4.9)": 21,
+        "Moderate (M5-5.9)": 160,
+        "Strong (M6-6.9)": 126,
+        "Major (M7-7.9)": 21,
+        "Great (M8+)": 2
+      }
+    },
+    {
+      "year": 1939,
+      "status": "available",
+      "total_events": 239,
+      "counts": {
+        "Light (M4.5-4.9)": 18,
+        "Moderate (M5-5.9)": 141,
+        "Strong (M6-6.9)": 66,
+        "Major (M7-7.9)": 13,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1940,
+      "status": "available",
+      "total_events": 236,
+      "counts": {
+        "Light (M4.5-4.9)": 20,
+        "Moderate (M5-5.9)": 111,
+        "Strong (M6-6.9)": 97,
+        "Major (M7-7.9)": 7,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1941,
+      "status": "available",
+      "total_events": 207,
+      "counts": {
+        "Light (M4.5-4.9)": 13,
+        "Moderate (M5-5.9)": 94,
+        "Strong (M6-6.9)": 89,
+        "Major (M7-7.9)": 10,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1942,
+      "status": "available",
+      "total_events": 165,
+      "counts": {
+        "Light (M4.5-4.9)": 10,
+        "Moderate (M5-5.9)": 56,
+        "Strong (M6-6.9)": 86,
+        "Major (M7-7.9)": 11,
+        "Great (M8+)": 2
+      }
+    },
+    {
+      "year": 1943,
+      "status": "available",
+      "total_events": 161,
+      "counts": {
+        "Light (M4.5-4.9)": 3,
+        "Moderate (M5-5.9)": 45,
+        "Strong (M6-6.9)": 96,
+        "Major (M7-7.9)": 16,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1944,
+      "status": "available",
+      "total_events": 128,
+      "counts": {
+        "Light (M4.5-4.9)": 5,
+        "Moderate (M5-5.9)": 41,
+        "Strong (M6-6.9)": 70,
+        "Major (M7-7.9)": 11,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1945,
+      "status": "available",
+      "total_events": 126,
+      "counts": {
+        "Light (M4.5-4.9)": 4,
+        "Moderate (M5-5.9)": 35,
+        "Strong (M6-6.9)": 80,
+        "Major (M7-7.9)": 6,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1946,
+      "status": "available",
+      "total_events": 156,
+      "counts": {
+        "Light (M4.5-4.9)": 9,
+        "Moderate (M5-5.9)": 53,
+        "Strong (M6-6.9)": 82,
+        "Major (M7-7.9)": 10,
+        "Great (M8+)": 2
+      }
+    },
+    {
+      "year": 1947,
+      "status": "available",
+      "total_events": 157,
+      "counts": {
+        "Light (M4.5-4.9)": 16,
+        "Moderate (M5-5.9)": 58,
+        "Strong (M6-6.9)": 68,
+        "Major (M7-7.9)": 15,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1948,
+      "status": "available",
+      "total_events": 193,
+      "counts": {
+        "Light (M4.5-4.9)": 15,
+        "Moderate (M5-5.9)": 64,
+        "Strong (M6-6.9)": 102,
+        "Major (M7-7.9)": 12,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1949,
+      "status": "available",
+      "total_events": 157,
+      "counts": {
+        "Light (M4.5-4.9)": 12,
+        "Moderate (M5-5.9)": 62,
+        "Strong (M6-6.9)": 71,
+        "Major (M7-7.9)": 11,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1950,
+      "status": "available",
+      "total_events": 248,
+      "counts": {
+        "Light (M4.5-4.9)": 18,
+        "Moderate (M5-5.9)": 107,
+        "Strong (M6-6.9)": 110,
+        "Major (M7-7.9)": 11,
+        "Great (M8+)": 2
+      }
+    },
+    {
+      "year": 1951,
+      "status": "available",
+      "total_events": 271,
+      "counts": {
+        "Light (M4.5-4.9)": 11,
+        "Moderate (M5-5.9)": 125,
+        "Strong (M6-6.9)": 127,
+        "Major (M7-7.9)": 8,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1952,
+      "status": "available",
+      "total_events": 386,
+      "counts": {
+        "Light (M4.5-4.9)": 48,
+        "Moderate (M5-5.9)": 172,
+        "Strong (M6-6.9)": 160,
+        "Major (M7-7.9)": 4,
+        "Great (M8+)": 2
+      }
+    },
+    {
+      "year": 1953,
+      "status": "available",
+      "total_events": 260,
+      "counts": {
+        "Light (M4.5-4.9)": 8,
+        "Moderate (M5-5.9)": 124,
+        "Strong (M6-6.9)": 119,
+        "Major (M7-7.9)": 9,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1954,
+      "status": "available",
+      "total_events": 304,
+      "counts": {
+        "Light (M4.5-4.9)": 49,
+        "Moderate (M5-5.9)": 146,
+        "Strong (M6-6.9)": 103,
+        "Major (M7-7.9)": 6,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1955,
+      "status": "available",
+      "total_events": 253,
+      "counts": {
+        "Light (M4.5-4.9)": 26,
+        "Moderate (M5-5.9)": 99,
+        "Strong (M6-6.9)": 119,
+        "Major (M7-7.9)": 9,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1956,
+      "status": "available",
+      "total_events": 334,
+      "counts": {
+        "Light (M4.5-4.9)": 91,
+        "Moderate (M5-5.9)": 134,
+        "Strong (M6-6.9)": 104,
+        "Major (M7-7.9)": 5,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1957,
+      "status": "available",
+      "total_events": 358,
+      "counts": {
+        "Light (M4.5-4.9)": 12,
+        "Moderate (M5-5.9)": 171,
+        "Strong (M6-6.9)": 156,
+        "Major (M7-7.9)": 17,
+        "Great (M8+)": 2
+      }
+    },
+    {
+      "year": 1958,
+      "status": "available",
+      "total_events": 365,
+      "counts": {
+        "Light (M4.5-4.9)": 13,
+        "Moderate (M5-5.9)": 233,
+        "Strong (M6-6.9)": 112,
+        "Major (M7-7.9)": 6,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1959,
+      "status": "available",
+      "total_events": 370,
+      "counts": {
+        "Light (M4.5-4.9)": 23,
+        "Moderate (M5-5.9)": 243,
+        "Strong (M6-6.9)": 98,
+        "Major (M7-7.9)": 6,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1960,
+      "status": "available",
+      "total_events": 292,
+      "counts": {
+        "Light (M4.5-4.9)": 8,
+        "Moderate (M5-5.9)": 148,
+        "Strong (M6-6.9)": 123,
+        "Major (M7-7.9)": 11,
+        "Great (M8+)": 2
+      }
+    },
+    {
+      "year": 1961,
+      "status": "available",
+      "total_events": 274,
+      "counts": {
+        "Light (M4.5-4.9)": 15,
+        "Moderate (M5-5.9)": 155,
+        "Strong (M6-6.9)": 93,
+        "Major (M7-7.9)": 11,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1962,
+      "status": "available",
+      "total_events": 243,
+      "counts": {
+        "Light (M4.5-4.9)": 17,
+        "Moderate (M5-5.9)": 128,
+        "Strong (M6-6.9)": 89,
+        "Major (M7-7.9)": 9,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1963,
+      "status": "available",
+      "total_events": 355,
+      "counts": {
+        "Light (M4.5-4.9)": 25,
+        "Moderate (M5-5.9)": 201,
+        "Strong (M6-6.9)": 112,
+        "Major (M7-7.9)": 15,
+        "Great (M8+)": 2
+      }
+    },
+    {
+      "year": 1964,
+      "status": "available",
+      "total_events": 596,
+      "counts": {
+        "Light (M4.5-4.9)": 13,
+        "Moderate (M5-5.9)": 439,
+        "Strong (M6-6.9)": 137,
+        "Major (M7-7.9)": 6,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1965,
+      "status": "available",
+      "total_events": 642,
+      "counts": {
+        "Light (M4.5-4.9)": 14,
+        "Moderate (M5-5.9)": 497,
+        "Strong (M6-6.9)": 116,
+        "Major (M7-7.9)": 13,
+        "Great (M8+)": 2
+      }
+    },
+    {
+      "year": 1966,
+      "status": "available",
+      "total_events": 573,
+      "counts": {
+        "Light (M4.5-4.9)": 19,
+        "Moderate (M5-5.9)": 445,
+        "Strong (M6-6.9)": 100,
+        "Major (M7-7.9)": 8,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1967,
+      "status": "available",
+      "total_events": 577,
+      "counts": {
+        "Light (M4.5-4.9)": 12,
+        "Moderate (M5-5.9)": 452,
+        "Strong (M6-6.9)": 103,
+        "Major (M7-7.9)": 10,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1968,
+      "status": "available",
+      "total_events": 713,
+      "counts": {
+        "Light (M4.5-4.9)": 16,
+        "Moderate (M5-5.9)": 538,
+        "Strong (M6-6.9)": 139,
+        "Major (M7-7.9)": 19,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1969,
+      "status": "available",
+      "total_events": 644,
+      "counts": {
+        "Light (M4.5-4.9)": 19,
+        "Moderate (M5-5.9)": 482,
+        "Strong (M6-6.9)": 128,
+        "Major (M7-7.9)": 14,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1970,
+      "status": "available",
+      "total_events": 658,
+      "counts": {
+        "Light (M4.5-4.9)": 8,
+        "Moderate (M5-5.9)": 498,
+        "Strong (M6-6.9)": 135,
+        "Major (M7-7.9)": 16,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1971,
+      "status": "available",
+      "total_events": 921,
+      "counts": {
+        "Light (M4.5-4.9)": 22,
+        "Moderate (M5-5.9)": 756,
+        "Strong (M6-6.9)": 132,
+        "Major (M7-7.9)": 9,
+        "Great (M8+)": 2
+      }
+    },
+    {
+      "year": 1972,
+      "status": "available",
+      "total_events": 885,
+      "counts": {
+        "Light (M4.5-4.9)": 11,
+        "Moderate (M5-5.9)": 742,
+        "Strong (M6-6.9)": 117,
+        "Major (M7-7.9)": 14,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1973,
+      "status": "available",
+      "total_events": 2987,
+      "counts": {
+        "Light (M4.5-4.9)": 1552,
+        "Moderate (M5-5.9)": 1342,
+        "Strong (M6-6.9)": 84,
+        "Major (M7-7.9)": 9,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1974,
+      "status": "available",
+      "total_events": 3051,
+      "counts": {
+        "Light (M4.5-4.9)": 1645,
+        "Moderate (M5-5.9)": 1310,
+        "Strong (M6-6.9)": 85,
+        "Major (M7-7.9)": 11,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1975,
+      "status": "available",
+      "total_events": 3313,
+      "counts": {
+        "Light (M4.5-4.9)": 1761,
+        "Moderate (M5-5.9)": 1446,
+        "Strong (M6-6.9)": 93,
+        "Major (M7-7.9)": 13,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1976,
+      "status": "available",
+      "total_events": 3597,
+      "counts": {
+        "Light (M4.5-4.9)": 1835,
+        "Moderate (M5-5.9)": 1653,
+        "Strong (M6-6.9)": 95,
+        "Major (M7-7.9)": 13,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1977,
+      "status": "available",
+      "total_events": 3580,
+      "counts": {
+        "Light (M4.5-4.9)": 1812,
+        "Moderate (M5-5.9)": 1683,
+        "Strong (M6-6.9)": 74,
+        "Major (M7-7.9)": 10,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1978,
+      "status": "available",
+      "total_events": 3307,
+      "counts": {
+        "Light (M4.5-4.9)": 1708,
+        "Moderate (M5-5.9)": 1509,
+        "Strong (M6-6.9)": 78,
+        "Major (M7-7.9)": 12,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1979,
+      "status": "available",
+      "total_events": 3279,
+      "counts": {
+        "Light (M4.5-4.9)": 1832,
+        "Moderate (M5-5.9)": 1361,
+        "Strong (M6-6.9)": 78,
+        "Major (M7-7.9)": 8,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1980,
+      "status": "available",
+      "total_events": 3486,
+      "counts": {
+        "Light (M4.5-4.9)": 2082,
+        "Moderate (M5-5.9)": 1309,
+        "Strong (M6-6.9)": 89,
+        "Major (M7-7.9)": 6,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1981,
+      "status": "available",
+      "total_events": 3261,
+      "counts": {
+        "Light (M4.5-4.9)": 2002,
+        "Moderate (M5-5.9)": 1176,
+        "Strong (M6-6.9)": 73,
+        "Major (M7-7.9)": 10,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1982,
+      "status": "available",
+      "total_events": 3539,
+      "counts": {
+        "Light (M4.5-4.9)": 2051,
+        "Moderate (M5-5.9)": 1401,
+        "Strong (M6-6.9)": 79,
+        "Major (M7-7.9)": 8,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1983,
+      "status": "available",
+      "total_events": 4093,
+      "counts": {
+        "Light (M4.5-4.9)": 2306,
+        "Moderate (M5-5.9)": 1651,
+        "Strong (M6-6.9)": 122,
+        "Major (M7-7.9)": 14,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1984,
+      "status": "available",
+      "total_events": 4072,
+      "counts": {
+        "Light (M4.5-4.9)": 2426,
+        "Moderate (M5-5.9)": 1514,
+        "Strong (M6-6.9)": 118,
+        "Major (M7-7.9)": 14,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1985,
+      "status": "available",
+      "total_events": 3428,
+      "counts": {
+        "Light (M4.5-4.9)": 2157,
+        "Moderate (M5-5.9)": 1150,
+        "Strong (M6-6.9)": 108,
+        "Major (M7-7.9)": 12,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1986,
+      "status": "available",
+      "total_events": 4505,
+      "counts": {
+        "Light (M4.5-4.9)": 2749,
+        "Moderate (M5-5.9)": 1618,
+        "Strong (M6-6.9)": 127,
+        "Major (M7-7.9)": 10,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1987,
+      "status": "available",
+      "total_events": 3986,
+      "counts": {
+        "Light (M4.5-4.9)": 2440,
+        "Moderate (M5-5.9)": 1380,
+        "Strong (M6-6.9)": 153,
+        "Major (M7-7.9)": 13,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1988,
+      "status": "available",
+      "total_events": 3983,
+      "counts": {
+        "Light (M4.5-4.9)": 2409,
+        "Moderate (M5-5.9)": 1452,
+        "Strong (M6-6.9)": 111,
+        "Major (M7-7.9)": 11,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1989,
+      "status": "available",
+      "total_events": 3980,
+      "counts": {
+        "Light (M4.5-4.9)": 2439,
+        "Moderate (M5-5.9)": 1404,
+        "Strong (M6-6.9)": 129,
+        "Major (M7-7.9)": 7,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1990,
+      "status": "available",
+      "total_events": 3120,
+      "counts": {
+        "Light (M4.5-4.9)": 1876,
+        "Moderate (M5-5.9)": 1135,
+        "Strong (M6-6.9)": 95,
+        "Major (M7-7.9)": 14,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1991,
+      "status": "available",
+      "total_events": 4089,
+      "counts": {
+        "Light (M4.5-4.9)": 2511,
+        "Moderate (M5-5.9)": 1441,
+        "Strong (M6-6.9)": 120,
+        "Major (M7-7.9)": 17,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1992,
+      "status": "available",
+      "total_events": 4388,
+      "counts": {
+        "Light (M4.5-4.9)": 2719,
+        "Moderate (M5-5.9)": 1491,
+        "Strong (M6-6.9)": 165,
+        "Major (M7-7.9)": 13,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1993,
+      "status": "available",
+      "total_events": 4188,
+      "counts": {
+        "Light (M4.5-4.9)": 2623,
+        "Moderate (M5-5.9)": 1417,
+        "Strong (M6-6.9)": 136,
+        "Major (M7-7.9)": 12,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1994,
+      "status": "available",
+      "total_events": 4188,
+      "counts": {
+        "Light (M4.5-4.9)": 2506,
+        "Moderate (M5-5.9)": 1525,
+        "Strong (M6-6.9)": 144,
+        "Major (M7-7.9)": 11,
+        "Great (M8+)": 2
+      }
+    },
+    {
+      "year": 1995,
+      "status": "available",
+      "total_events": 2873,
+      "counts": {
+        "Light (M4.5-4.9)": 1977,
+        "Moderate (M5-5.9)": 774,
+        "Strong (M6-6.9)": 108,
+        "Major (M7-7.9)": 12,
+        "Great (M8+)": 2
+      }
+    },
+    {
+      "year": 1996,
+      "status": "available",
+      "total_events": 4671,
+      "counts": {
+        "Light (M4.5-4.9)": 3301,
+        "Moderate (M5-5.9)": 1206,
+        "Strong (M6-6.9)": 149,
+        "Major (M7-7.9)": 14,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1997,
+      "status": "available",
+      "total_events": 4588,
+      "counts": {
+        "Light (M4.5-4.9)": 3353,
+        "Moderate (M5-5.9)": 1099,
+        "Strong (M6-6.9)": 120,
+        "Major (M7-7.9)": 16,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 1998,
+      "status": "available",
+      "total_events": 3801,
+      "counts": {
+        "Light (M4.5-4.9)": 2725,
+        "Moderate (M5-5.9)": 955,
+        "Strong (M6-6.9)": 109,
+        "Major (M7-7.9)": 11,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 1999,
+      "status": "available",
+      "total_events": 4054,
+      "counts": {
+        "Light (M4.5-4.9)": 2866,
+        "Moderate (M5-5.9)": 1053,
+        "Strong (M6-6.9)": 117,
+        "Major (M7-7.9)": 18,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 2000,
+      "status": "missing",
+      "total_events": 0,
+      "counts": null
+    },
+    {
+      "year": 2001,
+      "status": "available",
+      "total_events": 3762,
+      "counts": {
+        "Light (M4.5-4.9)": 2715,
+        "Moderate (M5-5.9)": 944,
+        "Strong (M6-6.9)": 94,
+        "Major (M7-7.9)": 8,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 2002,
+      "status": "available",
+      "total_events": 4963,
+      "counts": {
+        "Light (M4.5-4.9)": 3654,
+        "Moderate (M5-5.9)": 1170,
+        "Strong (M6-6.9)": 126,
+        "Major (M7-7.9)": 13,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 2003,
+      "status": "available",
+      "total_events": 5135,
+      "counts": {
+        "Light (M4.5-4.9)": 3769,
+        "Moderate (M5-5.9)": 1212,
+        "Strong (M6-6.9)": 139,
+        "Major (M7-7.9)": 14,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 2004,
+      "status": "available",
+      "total_events": 6139,
+      "counts": {
+        "Light (M4.5-4.9)": 4482,
+        "Moderate (M5-5.9)": 1502,
+        "Strong (M6-6.9)": 139,
+        "Major (M7-7.9)": 14,
+        "Great (M8+)": 2
+      }
+    },
+    {
+      "year": 2005,
+      "status": "missing",
+      "total_events": 0,
+      "counts": null
+    },
+    {
+      "year": 2006,
+      "status": "partial",
+      "total_events": 382,
+      "counts": {
+        "Light (M4.5-4.9)": 286,
+        "Moderate (M5-5.9)": 89,
+        "Strong (M6-6.9)": 6,
+        "Major (M7-7.9)": 1,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 2007,
+      "status": "available",
+      "total_events": 7274,
+      "counts": {
+        "Light (M4.5-4.9)": 4988,
+        "Moderate (M5-5.9)": 2090,
+        "Strong (M6-6.9)": 178,
+        "Major (M7-7.9)": 14,
+        "Great (M8+)": 4
+      }
+    },
+    {
+      "year": 2008,
+      "status": "available",
+      "total_events": 6307,
+      "counts": {
+        "Light (M4.5-4.9)": 4342,
+        "Moderate (M5-5.9)": 1786,
+        "Strong (M6-6.9)": 167,
+        "Major (M7-7.9)": 12,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 2009,
+      "status": "available",
+      "total_events": 6036,
+      "counts": {
+        "Light (M4.5-4.9)": 3972,
+        "Moderate (M5-5.9)": 1905,
+        "Strong (M6-6.9)": 142,
+        "Major (M7-7.9)": 16,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 2010,
+      "status": "missing",
+      "total_events": 0,
+      "counts": null
+    },
+    {
+      "year": 2011,
+      "status": "missing",
+      "total_events": 0,
+      "counts": null
+    },
+    {
+      "year": 2012,
+      "status": "available",
+      "total_events": 4480,
+      "counts": {
+        "Light (M4.5-4.9)": 3436,
+        "Moderate (M5-5.9)": 961,
+        "Strong (M6-6.9)": 74,
+        "Major (M7-7.9)": 9,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 2013,
+      "status": "available",
+      "total_events": 7209,
+      "counts": {
+        "Light (M4.5-4.9)": 5599,
+        "Moderate (M5-5.9)": 1468,
+        "Strong (M6-6.9)": 123,
+        "Major (M7-7.9)": 17,
+        "Great (M8+)": 2
+      }
+    },
+    {
+      "year": 2014,
+      "status": "available",
+      "total_events": 8308,
+      "counts": {
+        "Light (M4.5-4.9)": 6567,
+        "Moderate (M5-5.9)": 1586,
+        "Strong (M6-6.9)": 143,
+        "Major (M7-7.9)": 11,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 2015,
+      "status": "missing",
+      "total_events": 0,
+      "counts": null
+    },
+    {
+      "year": 2016,
+      "status": "missing",
+      "total_events": 0,
+      "counts": null
+    },
+    {
+      "year": 2017,
+      "status": "available",
+      "total_events": 5235,
+      "counts": {
+        "Light (M4.5-4.9)": 3949,
+        "Moderate (M5-5.9)": 1190,
+        "Strong (M6-6.9)": 91,
+        "Major (M7-7.9)": 4,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 2018,
+      "status": "available",
+      "total_events": 7509,
+      "counts": {
+        "Light (M4.5-4.9)": 5741,
+        "Moderate (M5-5.9)": 1634,
+        "Strong (M6-6.9)": 117,
+        "Major (M7-7.9)": 16,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 2019,
+      "status": "available",
+      "total_events": 7193,
+      "counts": {
+        "Light (M4.5-4.9)": 5549,
+        "Moderate (M5-5.9)": 1499,
+        "Strong (M6-6.9)": 135,
+        "Major (M7-7.9)": 9,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 2020,
+      "status": "missing",
+      "total_events": 0,
+      "counts": null
+    },
+    {
+      "year": 2021,
+      "status": "missing",
+      "total_events": 0,
+      "counts": null
+    },
+    {
+      "year": 2022,
+      "status": "available",
+      "total_events": 5964,
+      "counts": {
+        "Light (M4.5-4.9)": 4645,
+        "Moderate (M5-5.9)": 1227,
+        "Strong (M6-6.9)": 82,
+        "Major (M7-7.9)": 10,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 2023,
+      "status": "available",
+      "total_events": 7643,
+      "counts": {
+        "Light (M4.5-4.9)": 5863,
+        "Moderate (M5-5.9)": 1633,
+        "Strong (M6-6.9)": 128,
+        "Major (M7-7.9)": 19,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 2024,
+      "status": "available",
+      "total_events": 6385,
+      "counts": {
+        "Light (M4.5-4.9)": 4881,
+        "Moderate (M5-5.9)": 1405,
+        "Strong (M6-6.9)": 89,
+        "Major (M7-7.9)": 10,
+        "Great (M8+)": 0
+      }
+    },
+    {
+      "year": 2025,
+      "status": "available",
+      "total_events": 8556,
+      "counts": {
+        "Light (M4.5-4.9)": 6428,
+        "Moderate (M5-5.9)": 1983,
+        "Strong (M6-6.9)": 129,
+        "Major (M7-7.9)": 15,
+        "Great (M8+)": 1
+      }
+    },
+    {
+      "year": 2026,
+      "status": "partial",
+      "total_events": 2569,
+      "counts": {
+        "Light (M4.5-4.9)": 1894,
+        "Moderate (M5-5.9)": 629,
+        "Strong (M6-6.9)": 41,
+        "Major (M7-7.9)": 5,
+        "Great (M8+)": 0
+      }
+    }
+  ],
+  "maximum": {
+    "magnitude": 9.5,
+    "occurrences": 1,
+    "events": [
+      {
+        "date": "1960-05-22",
+        "magnitude": 9.5,
+        "location": "1960 Great Chilean Earthquake (Valdivia Earthquake)",
+        "depth_km": 25.0
+      }
+    ]
+  }
+}

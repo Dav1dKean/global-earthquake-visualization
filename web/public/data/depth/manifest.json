@@ -1,0 +1,764 @@
+[
+  {
+    "year": 1900,
+    "status": "available",
+    "known_depth_events": 5,
+    "missing_depth_events": 9
+  },
+  {
+    "year": 1901,
+    "status": "available",
+    "known_depth_events": 5,
+    "missing_depth_events": 13
+  },
+  {
+    "year": 1902,
+    "status": "available",
+    "known_depth_events": 3,
+    "missing_depth_events": 15
+  },
+  {
+    "year": 1903,
+    "status": "available",
+    "known_depth_events": 2,
+    "missing_depth_events": 16
+  },
+  {
+    "year": 1904,
+    "status": "available",
+    "known_depth_events": 21,
+    "missing_depth_events": 7
+  },
+  {
+    "year": 1905,
+    "status": "available",
+    "known_depth_events": 71,
+    "missing_depth_events": 8
+  },
+  {
+    "year": 1906,
+    "status": "available",
+    "known_depth_events": 87,
+    "missing_depth_events": 10
+  },
+  {
+    "year": 1907,
+    "status": "available",
+    "known_depth_events": 85,
+    "missing_depth_events": 2
+  },
+  {
+    "year": 1908,
+    "status": "available",
+    "known_depth_events": 34,
+    "missing_depth_events": 5
+  },
+  {
+    "year": 1909,
+    "status": "available",
+    "known_depth_events": 52,
+    "missing_depth_events": 13
+  },
+  {
+    "year": 1910,
+    "status": "available",
+    "known_depth_events": 59,
+    "missing_depth_events": 17
+  },
+  {
+    "year": 1911,
+    "status": "available",
+    "known_depth_events": 50,
+    "missing_depth_events": 3
+  },
+  {
+    "year": 1912,
+    "status": "available",
+    "known_depth_events": 55,
+    "missing_depth_events": 55
+  },
+  {
+    "year": 1913,
+    "status": "available",
+    "known_depth_events": 84,
+    "missing_depth_events": 4
+  },
+  {
+    "year": 1914,
+    "status": "available",
+    "known_depth_events": 66,
+    "missing_depth_events": 8
+  },
+  {
+    "year": 1915,
+    "status": "available",
+    "known_depth_events": 82,
+    "missing_depth_events": 12
+  },
+  {
+    "year": 1916,
+    "status": "available",
+    "known_depth_events": 70,
+    "missing_depth_events": 14
+  },
+  {
+    "year": 1917,
+    "status": "available",
+    "known_depth_events": 143,
+    "missing_depth_events": 10
+  },
+  {
+    "year": 1918,
+    "status": "available",
+    "known_depth_events": 130,
+    "missing_depth_events": 5
+  },
+  {
+    "year": 1919,
+    "status": "available",
+    "known_depth_events": 107,
+    "missing_depth_events": 5
+  },
+  {
+    "year": 1920,
+    "status": "available",
+    "known_depth_events": 96,
+    "missing_depth_events": 5
+  },
+  {
+    "year": 1921,
+    "status": "available",
+    "known_depth_events": 80,
+    "missing_depth_events": 1
+  },
+  {
+    "year": 1922,
+    "status": "available",
+    "known_depth_events": 95,
+    "missing_depth_events": 7
+  },
+  {
+    "year": 1923,
+    "status": "available",
+    "known_depth_events": 122,
+    "missing_depth_events": 8
+  },
+  {
+    "year": 1924,
+    "status": "available",
+    "known_depth_events": 125,
+    "missing_depth_events": 6
+  },
+  {
+    "year": 1925,
+    "status": "available",
+    "known_depth_events": 153,
+    "missing_depth_events": 12
+  },
+  {
+    "year": 1926,
+    "status": "available",
+    "known_depth_events": 266,
+    "missing_depth_events": 8
+  },
+  {
+    "year": 1927,
+    "status": "available",
+    "known_depth_events": 303,
+    "missing_depth_events": 7
+  },
+  {
+    "year": 1928,
+    "status": "available",
+    "known_depth_events": 298,
+    "missing_depth_events": 10
+  },
+  {
+    "year": 1929,
+    "status": "available",
+    "known_depth_events": 303,
+    "missing_depth_events": 8
+  },
+  {
+    "year": 1930,
+    "status": "available",
+    "known_depth_events": 274,
+    "missing_depth_events": 19
+  },
+  {
+    "year": 1931,
+    "status": "available",
+    "known_depth_events": 287,
+    "missing_depth_events": 15
+  },
+  {
+    "year": 1932,
+    "status": "available",
+    "known_depth_events": 213,
+    "missing_depth_events": 23
+  },
+  {
+    "year": 1933,
+    "status": "available",
+    "known_depth_events": 289,
+    "missing_depth_events": 23
+  },
+  {
+    "year": 1934,
+    "status": "available",
+    "known_depth_events": 249,
+    "missing_depth_events": 41
+  },
+  {
+    "year": 1935,
+    "status": "available",
+    "known_depth_events": 254,
+    "missing_depth_events": 6
+  },
+  {
+    "year": 1936,
+    "status": "available",
+    "known_depth_events": 264,
+    "missing_depth_events": 15
+  },
+  {
+    "year": 1937,
+    "status": "available",
+    "known_depth_events": 233,
+    "missing_depth_events": 12
+  },
+  {
+    "year": 1938,
+    "status": "available",
+    "known_depth_events": 317,
+    "missing_depth_events": 13
+  },
+  {
+    "year": 1939,
+    "status": "available",
+    "known_depth_events": 223,
+    "missing_depth_events": 16
+  },
+  {
+    "year": 1940,
+    "status": "available",
+    "known_depth_events": 227,
+    "missing_depth_events": 9
+  },
+  {
+    "year": 1941,
+    "status": "available",
+    "known_depth_events": 196,
+    "missing_depth_events": 11
+  },
+  {
+    "year": 1942,
+    "status": "available",
+    "known_depth_events": 159,
+    "missing_depth_events": 6
+  },
+  {
+    "year": 1943,
+    "status": "available",
+    "known_depth_events": 159,
+    "missing_depth_events": 2
+  },
+  {
+    "year": 1944,
+    "status": "available",
+    "known_depth_events": 125,
+    "missing_depth_events": 3
+  },
+  {
+    "year": 1945,
+    "status": "available",
+    "known_depth_events": 122,
+    "missing_depth_events": 4
+  },
+  {
+    "year": 1946,
+    "status": "available",
+    "known_depth_events": 152,
+    "missing_depth_events": 4
+  },
+  {
+    "year": 1947,
+    "status": "available",
+    "known_depth_events": 149,
+    "missing_depth_events": 8
+  },
+  {
+    "year": 1948,
+    "status": "available",
+    "known_depth_events": 184,
+    "missing_depth_events": 9
+  },
+  {
+    "year": 1949,
+    "status": "available",
+    "known_depth_events": 147,
+    "missing_depth_events": 10
+  },
+  {
+    "year": 1950,
+    "status": "available",
+    "known_depth_events": 235,
+    "missing_depth_events": 13
+  },
+  {
+    "year": 1951,
+    "status": "available",
+    "known_depth_events": 262,
+    "missing_depth_events": 9
+  },
+  {
+    "year": 1952,
+    "status": "available",
+    "known_depth_events": 381,
+    "missing_depth_events": 5
+  },
+  {
+    "year": 1953,
+    "status": "available",
+    "known_depth_events": 255,
+    "missing_depth_events": 5
+  },
+  {
+    "year": 1954,
+    "status": "available",
+    "known_depth_events": 255,
+    "missing_depth_events": 49
+  },
+  {
+    "year": 1955,
+    "status": "available",
+    "known_depth_events": 228,
+    "missing_depth_events": 25
+  },
+  {
+    "year": 1956,
+    "status": "available",
+    "known_depth_events": 321,
+    "missing_depth_events": 13
+  },
+  {
+    "year": 1957,
+    "status": "available",
+    "known_depth_events": 345,
+    "missing_depth_events": 13
+  },
+  {
+    "year": 1958,
+    "status": "available",
+    "known_depth_events": 360,
+    "missing_depth_events": 5
+  },
+  {
+    "year": 1959,
+    "status": "available",
+    "known_depth_events": 353,
+    "missing_depth_events": 17
+  },
+  {
+    "year": 1960,
+    "status": "available",
+    "known_depth_events": 288,
+    "missing_depth_events": 4
+  },
+  {
+    "year": 1961,
+    "status": "available",
+    "known_depth_events": 265,
+    "missing_depth_events": 9
+  },
+  {
+    "year": 1962,
+    "status": "available",
+    "known_depth_events": 239,
+    "missing_depth_events": 4
+  },
+  {
+    "year": 1963,
+    "status": "available",
+    "known_depth_events": 353,
+    "missing_depth_events": 2
+  },
+  {
+    "year": 1964,
+    "status": "available",
+    "known_depth_events": 592,
+    "missing_depth_events": 4
+  },
+  {
+    "year": 1965,
+    "status": "available",
+    "known_depth_events": 640,
+    "missing_depth_events": 2
+  },
+  {
+    "year": 1966,
+    "status": "available",
+    "known_depth_events": 572,
+    "missing_depth_events": 1
+  },
+  {
+    "year": 1967,
+    "status": "available",
+    "known_depth_events": 577,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1968,
+    "status": "available",
+    "known_depth_events": 713,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1969,
+    "status": "available",
+    "known_depth_events": 644,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1970,
+    "status": "available",
+    "known_depth_events": 656,
+    "missing_depth_events": 2
+  },
+  {
+    "year": 1971,
+    "status": "available",
+    "known_depth_events": 920,
+    "missing_depth_events": 1
+  },
+  {
+    "year": 1972,
+    "status": "available",
+    "known_depth_events": 885,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1973,
+    "status": "available",
+    "known_depth_events": 2987,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1974,
+    "status": "available",
+    "known_depth_events": 3051,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1975,
+    "status": "available",
+    "known_depth_events": 3311,
+    "missing_depth_events": 2
+  },
+  {
+    "year": 1976,
+    "status": "available",
+    "known_depth_events": 3597,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1977,
+    "status": "available",
+    "known_depth_events": 3580,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1978,
+    "status": "available",
+    "known_depth_events": 3307,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1979,
+    "status": "available",
+    "known_depth_events": 3279,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1980,
+    "status": "available",
+    "known_depth_events": 3486,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1981,
+    "status": "available",
+    "known_depth_events": 3261,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1982,
+    "status": "available",
+    "known_depth_events": 3539,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1983,
+    "status": "available",
+    "known_depth_events": 4093,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1984,
+    "status": "available",
+    "known_depth_events": 4072,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1985,
+    "status": "available",
+    "known_depth_events": 3428,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1986,
+    "status": "available",
+    "known_depth_events": 4505,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1987,
+    "status": "available",
+    "known_depth_events": 3986,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1988,
+    "status": "available",
+    "known_depth_events": 3983,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1989,
+    "status": "available",
+    "known_depth_events": 3980,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1990,
+    "status": "available",
+    "known_depth_events": 3120,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1991,
+    "status": "available",
+    "known_depth_events": 4089,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1992,
+    "status": "available",
+    "known_depth_events": 4388,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1993,
+    "status": "available",
+    "known_depth_events": 4188,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1994,
+    "status": "available",
+    "known_depth_events": 4188,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1995,
+    "status": "available",
+    "known_depth_events": 2873,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1996,
+    "status": "available",
+    "known_depth_events": 4671,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1997,
+    "status": "available",
+    "known_depth_events": 4588,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1998,
+    "status": "available",
+    "known_depth_events": 3801,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 1999,
+    "status": "available",
+    "known_depth_events": 4054,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2000,
+    "status": "missing",
+    "known_depth_events": 0,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2001,
+    "status": "available",
+    "known_depth_events": 3762,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2002,
+    "status": "available",
+    "known_depth_events": 4963,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2003,
+    "status": "available",
+    "known_depth_events": 5135,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2004,
+    "status": "available",
+    "known_depth_events": 6139,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2005,
+    "status": "missing",
+    "known_depth_events": 0,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2006,
+    "status": "partial",
+    "known_depth_events": 382,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2007,
+    "status": "available",
+    "known_depth_events": 7274,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2008,
+    "status": "available",
+    "known_depth_events": 6307,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2009,
+    "status": "available",
+    "known_depth_events": 6036,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2010,
+    "status": "missing",
+    "known_depth_events": 0,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2011,
+    "status": "missing",
+    "known_depth_events": 0,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2012,
+    "status": "available",
+    "known_depth_events": 4480,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2013,
+    "status": "available",
+    "known_depth_events": 7209,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2014,
+    "status": "available",
+    "known_depth_events": 8308,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2015,
+    "status": "missing",
+    "known_depth_events": 0,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2016,
+    "status": "missing",
+    "known_depth_events": 0,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2017,
+    "status": "available",
+    "known_depth_events": 5235,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2018,
+    "status": "available",
+    "known_depth_events": 7509,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2019,
+    "status": "available",
+    "known_depth_events": 7193,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2020,
+    "status": "missing",
+    "known_depth_events": 0,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2021,
+    "status": "missing",
+    "known_depth_events": 0,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2022,
+    "status": "available",
+    "known_depth_events": 5964,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2023,
+    "status": "available",
+    "known_depth_events": 7643,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2024,
+    "status": "available",
+    "known_depth_events": 6385,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2025,
+    "status": "available",
+    "known_depth_events": 8556,
+    "missing_depth_events": 0
+  },
+  {
+    "year": 2026,
+    "status": "partial",
+    "known_depth_events": 2569,
+    "missing_depth_events": 0
+  }
+]

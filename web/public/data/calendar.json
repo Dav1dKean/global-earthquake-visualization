@@ -1,0 +1,5091 @@
+{
+  "start_year": 1900,
+  "end_year": 2025,
+  "excluded_years": [
+    2000,
+    2005,
+    2006,
+    2010,
+    2011,
+    2015,
+    2016,
+    2020,
+    2021
+  ],
+  "month_weekday": {
+    "4.5": [
+      [
+        {
+          "events": 2355,
+          "opportunities": 518,
+          "rate": 4.5463
+        },
+        {
+          "events": 2296,
+          "opportunities": 522,
+          "rate": 4.3985
+        },
+        {
+          "events": 2449,
+          "opportunities": 523,
+          "rate": 4.6826
+        },
+        {
+          "events": 2414,
+          "opportunities": 520,
+          "rate": 4.6423
+        },
+        {
+          "events": 2233,
+          "opportunities": 517,
+          "rate": 4.3191
+        },
+        {
+          "events": 2325,
+          "opportunities": 513,
+          "rate": 4.5322
+        },
+        {
+          "events": 2227,
+          "opportunities": 514,
+          "rate": 4.3327
+        }
+      ],
+      [
+        {
+          "events": 2264,
+          "opportunities": 472,
+          "rate": 4.7966
+        },
+        {
+          "events": 2021,
+          "opportunities": 471,
+          "rate": 4.2909
+        },
+        {
+          "events": 2314,
+          "opportunities": 472,
+          "rate": 4.9025
+        },
+        {
+          "events": 2255,
+          "opportunities": 473,
+          "rate": 4.7674
+        },
+        {
+          "events": 2238,
+          "opportunities": 472,
+          "rate": 4.7415
+        },
+        {
+          "events": 2161,
+          "opportunities": 472,
+          "rate": 4.5784
+        },
+        {
+          "events": 2112,
+          "opportunities": 472,
+          "rate": 4.4746
+        }
+      ],
+      [
+        {
+          "events": 2459,
+          "opportunities": 517,
+          "rate": 4.7563
+        },
+        {
+          "events": 2408,
+          "opportunities": 514,
+          "rate": 4.6848
+        },
+        {
+          "events": 2331,
+          "opportunities": 514,
+          "rate": 4.535
+        },
+        {
+          "events": 2514,
+          "opportunities": 517,
+          "rate": 4.8627
+        },
+        {
+          "events": 2507,
+          "opportunities": 521,
+          "rate": 4.8119
+        },
+        {
+          "events": 2637,
+          "opportunities": 523,
+          "rate": 5.0421
+        },
+        {
+          "events": 2504,
+          "opportunities": 521,
+          "rate": 4.8061
+        }
+      ],
+      [
+        {
+          "events": 2816,
+          "opportunities": 505,
+          "rate": 5.5762
+        },
+        {
+          "events": 2662,
+          "opportunities": 505,
+          "rate": 5.2713
+        },
+        {
+          "events": 2804,
+          "opportunities": 502,
+          "rate": 5.5857
+        },
+        {
+          "events": 2583,
+          "opportunities": 499,
+          "rate": 5.1764
+        },
+        {
+          "events": 2460,
+          "opportunities": 498,
+          "rate": 4.9398
+        },
+        {
+          "events": 2696,
+          "opportunities": 499,
+          "rate": 5.4028
+        },
+        {
+          "events": 2619,
+          "opportunities": 502,
+          "rate": 5.2171
+        }
+      ],
+      [
+        {
+          "events": 2793,
+          "opportunities": 514,
+          "rate": 5.4339
+        },
+        {
+          "events": 2735,
+          "opportunities": 517,
+          "rate": 5.2901
+        },
+        {
+          "events": 2697,
+          "opportunities": 521,
+          "rate": 5.1766
+        },
+        {
+          "events": 2867,
+          "opportunities": 523,
+          "rate": 5.4818
+        },
+        {
+          "events": 2800,
+          "opportunities": 521,
+          "rate": 5.3743
+        },
+        {
+          "events": 2678,
+          "opportunities": 517,
+          "rate": 5.1799
+        },
+        {
+          "events": 2760,
+          "opportunities": 514,
+          "rate": 5.3696
+        }
+      ],
+      [
+        {
+          "events": 2783,
+          "opportunities": 502,
+          "rate": 5.5438
+        },
+        {
+          "events": 2775,
+          "opportunities": 499,
+          "rate": 5.5611
+        },
+        {
+          "events": 2545,
+          "opportunities": 498,
+          "rate": 5.1104
+        },
+        {
+          "events": 2647,
+          "opportunities": 499,
+          "rate": 5.3046
+        },
+        {
+          "events": 2644,
+          "opportunities": 502,
+          "rate": 5.2669
+        },
+        {
+          "events": 2768,
+          "opportunities": 505,
+          "rate": 5.4812
+        },
+        {
+          "events": 2896,
+          "opportunities": 505,
+          "rate": 5.7347
+        }
+      ],
+      [
+        {
+          "events": 2891,
+          "opportunities": 521,
+          "rate": 5.5489
+        },
+        {
+          "events": 2997,
+          "opportunities": 523,
+          "rate": 5.7304
+        },
+        {
+          "events": 3200,
+          "opportunities": 521,
+          "rate": 6.142
+        },
+        {
+          "events": 2780,
+          "opportunities": 517,
+          "rate": 5.3772
+        },
+        {
+          "events": 2608,
+          "opportunities": 514,
+          "rate": 5.0739
+        },
+        {
+          "events": 2629,
+          "opportunities": 514,
+          "rate": 5.1148
+        },
+        {
+          "events": 2911,
+          "opportunities": 517,
+          "rate": 5.6306
+        }
+      ],
+      [
+        {
+          "events": 2716,
+          "opportunities": 514,
+          "rate": 5.284
+        },
+        {
+          "events": 2801,
+          "opportunities": 514,
+          "rate": 5.4494
+        },
+        {
+          "events": 2722,
+          "opportunities": 517,
+          "rate": 5.265
+        },
+        {
+          "events": 2883,
+          "opportunities": 521,
+          "rate": 5.5336
+        },
+        {
+          "events": 3039,
+          "opportunities": 523,
+          "rate": 5.8107
+        },
+        {
+          "events": 2718,
+          "opportunities": 521,
+          "rate": 5.2169
+        },
+        {
+          "events": 2976,
+          "opportunities": 517,
+          "rate": 5.7563
+        }
+      ],
+      [
+        {
+          "events": 2861,
+          "opportunities": 505,
+          "rate": 5.6653
+        },
+        {
+          "events": 2921,
+          "opportunities": 502,
+          "rate": 5.8187
+        },
+        {
+          "events": 2772,
+          "opportunities": 499,
+          "rate": 5.5551
+        },
+        {
+          "events": 2740,
+          "opportunities": 498,
+          "rate": 5.502
+        },
+        {
+          "events": 2895,
+          "opportunities": 499,
+          "rate": 5.8016
+        },
+        {
+          "events": 2883,
+          "opportunities": 502,
+          "rate": 5.743
+        },
+        {
+          "events": 2841,
+          "opportunities": 505,
+          "rate": 5.6257
+        }
+      ],
+      [
+        {
+          "events": 2872,
+          "opportunities": 517,
+          "rate": 5.5551
+        },
+        {
+          "events": 3222,
+          "opportunities": 521,
+          "rate": 6.1843
+        },
+        {
+          "events": 2965,
+          "opportunities": 523,
+          "rate": 5.6692
+        },
+        {
+          "events": 3069,
+          "opportunities": 521,
+          "rate": 5.8906
+        },
+        {
+          "events": 3065,
+          "opportunities": 517,
+          "rate": 5.9284
+        },
+        {
+          "events": 2852,
+          "opportunities": 514,
+          "rate": 5.5486
+        },
+        {
+          "events": 2877,
+          "opportunities": 514,
+          "rate": 5.5973
+        }
+      ],
+      [
+        {
+          "events": 2851,
+          "opportunities": 499,
+          "rate": 5.7134
+        },
+        {
+          "events": 2825,
+          "opportunities": 498,
+          "rate": 5.6727
+        },
+        {
+          "events": 2771,
+          "opportunities": 499,
+          "rate": 5.5531
+        },
+        {
+          "events": 2867,
+          "opportunities": 502,
+          "rate": 5.7112
+        },
+        {
+          "events": 2914,
+          "opportunities": 505,
+          "rate": 5.7703
+        },
+        {
+          "events": 2811,
+          "opportunities": 505,
+          "rate": 5.5663
+        },
+        {
+          "events": 2994,
+          "opportunities": 502,
+          "rate": 5.9641
+        }
+      ],
+      [
+        {
+          "events": 3077,
+          "opportunities": 523,
+          "rate": 5.8834
+        },
+        {
+          "events": 2793,
+          "opportunities": 521,
+          "rate": 5.3608
+        },
+        {
+          "events": 2760,
+          "opportunities": 517,
+          "rate": 5.3385
+        },
+        {
+          "events": 2824,
+          "opportunities": 514,
+          "rate": 5.4942
+        },
+        {
+          "events": 2988,
+          "opportunities": 514,
+          "rate": 5.8132
+        },
+        {
+          "events": 3234,
+          "opportunities": 517,
+          "rate": 6.2553
+        },
+        {
+          "events": 3386,
+          "opportunities": 521,
+          "rate": 6.499
+        }
+      ]
+    ],
+    "5.0": [
+      [
+        {
+          "events": 918,
+          "opportunities": 518,
+          "rate": 1.7722
+        },
+        {
+          "events": 857,
+          "opportunities": 522,
+          "rate": 1.6418
+        },
+        {
+          "events": 959,
+          "opportunities": 523,
+          "rate": 1.8337
+        },
+        {
+          "events": 916,
+          "opportunities": 520,
+          "rate": 1.7615
+        },
+        {
+          "events": 796,
+          "opportunities": 517,
+          "rate": 1.5397
+        },
+        {
+          "events": 873,
+          "opportunities": 513,
+          "rate": 1.7018
+        },
+        {
+          "events": 838,
+          "opportunities": 514,
+          "rate": 1.6304
+        }
+      ],
+      [
+        {
+          "events": 829,
+          "opportunities": 472,
+          "rate": 1.7564
+        },
+        {
+          "events": 779,
+          "opportunities": 471,
+          "rate": 1.6539
+        },
+        {
+          "events": 896,
+          "opportunities": 472,
+          "rate": 1.8983
+        },
+        {
+          "events": 839,
+          "opportunities": 473,
+          "rate": 1.7738
+        },
+        {
+          "events": 850,
+          "opportunities": 472,
+          "rate": 1.8008
+        },
+        {
+          "events": 824,
+          "opportunities": 472,
+          "rate": 1.7458
+        },
+        {
+          "events": 807,
+          "opportunities": 472,
+          "rate": 1.7097
+        }
+      ],
+      [
+        {
+          "events": 911,
+          "opportunities": 517,
+          "rate": 1.7621
+        },
+        {
+          "events": 902,
+          "opportunities": 514,
+          "rate": 1.7549
+        },
+        {
+          "events": 902,
+          "opportunities": 514,
+          "rate": 1.7549
+        },
+        {
+          "events": 954,
+          "opportunities": 517,
+          "rate": 1.8453
+        },
+        {
+          "events": 981,
+          "opportunities": 521,
+          "rate": 1.8829
+        },
+        {
+          "events": 1008,
+          "opportunities": 523,
+          "rate": 1.9273
+        },
+        {
+          "events": 961,
+          "opportunities": 521,
+          "rate": 1.8445
+        }
+      ],
+      [
+        {
+          "events": 989,
+          "opportunities": 505,
+          "rate": 1.9584
+        },
+        {
+          "events": 942,
+          "opportunities": 505,
+          "rate": 1.8653
+        },
+        {
+          "events": 1046,
+          "opportunities": 502,
+          "rate": 2.0837
+        },
+        {
+          "events": 969,
+          "opportunities": 499,
+          "rate": 1.9419
+        },
+        {
+          "events": 947,
+          "opportunities": 498,
+          "rate": 1.9016
+        },
+        {
+          "events": 978,
+          "opportunities": 499,
+          "rate": 1.9599
+        },
+        {
+          "events": 939,
+          "opportunities": 502,
+          "rate": 1.8705
+        }
+      ],
+      [
+        {
+          "events": 1055,
+          "opportunities": 514,
+          "rate": 2.0525
+        },
+        {
+          "events": 996,
+          "opportunities": 517,
+          "rate": 1.9265
+        },
+        {
+          "events": 1026,
+          "opportunities": 521,
+          "rate": 1.9693
+        },
+        {
+          "events": 1050,
+          "opportunities": 523,
+          "rate": 2.0076
+        },
+        {
+          "events": 1047,
+          "opportunities": 521,
+          "rate": 2.0096
+        },
+        {
+          "events": 997,
+          "opportunities": 517,
+          "rate": 1.9284
+        },
+        {
+          "events": 1015,
+          "opportunities": 514,
+          "rate": 1.9747
+        }
+      ],
+      [
+        {
+          "events": 1030,
+          "opportunities": 502,
+          "rate": 2.0518
+        },
+        {
+          "events": 1028,
+          "opportunities": 499,
+          "rate": 2.0601
+        },
+        {
+          "events": 969,
+          "opportunities": 498,
+          "rate": 1.9458
+        },
+        {
+          "events": 998,
+          "opportunities": 499,
+          "rate": 2.0
+        },
+        {
+          "events": 1015,
+          "opportunities": 502,
+          "rate": 2.0219
+        },
+        {
+          "events": 988,
+          "opportunities": 505,
+          "rate": 1.9564
+        },
+        {
+          "events": 1094,
+          "opportunities": 505,
+          "rate": 2.1663
+        }
+      ],
+      [
+        {
+          "events": 1087,
+          "opportunities": 521,
+          "rate": 2.0864
+        },
+        {
+          "events": 1090,
+          "opportunities": 523,
+          "rate": 2.0841
+        },
+        {
+          "events": 1201,
+          "opportunities": 521,
+          "rate": 2.3052
+        },
+        {
+          "events": 996,
+          "opportunities": 517,
+          "rate": 1.9265
+        },
+        {
+          "events": 1021,
+          "opportunities": 514,
+          "rate": 1.9864
+        },
+        {
+          "events": 982,
+          "opportunities": 514,
+          "rate": 1.9105
+        },
+        {
+          "events": 1094,
+          "opportunities": 517,
+          "rate": 2.1161
+        }
+      ],
+      [
+        {
+          "events": 1023,
+          "opportunities": 514,
+          "rate": 1.9903
+        },
+        {
+          "events": 1098,
+          "opportunities": 514,
+          "rate": 2.1362
+        },
+        {
+          "events": 1083,
+          "opportunities": 517,
+          "rate": 2.0948
+        },
+        {
+          "events": 1129,
+          "opportunities": 521,
+          "rate": 2.167
+        },
+        {
+          "events": 1088,
+          "opportunities": 523,
+          "rate": 2.0803
+        },
+        {
+          "events": 991,
+          "opportunities": 521,
+          "rate": 1.9021
+        },
+        {
+          "events": 1113,
+          "opportunities": 517,
+          "rate": 2.1528
+        }
+      ],
+      [
+        {
+          "events": 1031,
+          "opportunities": 505,
+          "rate": 2.0416
+        },
+        {
+          "events": 1062,
+          "opportunities": 502,
+          "rate": 2.1155
+        },
+        {
+          "events": 1085,
+          "opportunities": 499,
+          "rate": 2.1743
+        },
+        {
+          "events": 1033,
+          "opportunities": 498,
+          "rate": 2.0743
+        },
+        {
+          "events": 1098,
+          "opportunities": 499,
+          "rate": 2.2004
+        },
+        {
+          "events": 1092,
+          "opportunities": 502,
+          "rate": 2.1753
+        },
+        {
+          "events": 985,
+          "opportunities": 505,
+          "rate": 1.9505
+        }
+      ],
+      [
+        {
+          "events": 1027,
+          "opportunities": 517,
+          "rate": 1.9865
+        },
+        {
+          "events": 1167,
+          "opportunities": 521,
+          "rate": 2.2399
+        },
+        {
+          "events": 1116,
+          "opportunities": 523,
+          "rate": 2.1338
+        },
+        {
+          "events": 1080,
+          "opportunities": 521,
+          "rate": 2.0729
+        },
+        {
+          "events": 1117,
+          "opportunities": 517,
+          "rate": 2.1605
+        },
+        {
+          "events": 1019,
+          "opportunities": 514,
+          "rate": 1.9825
+        },
+        {
+          "events": 1069,
+          "opportunities": 514,
+          "rate": 2.0798
+        }
+      ],
+      [
+        {
+          "events": 1014,
+          "opportunities": 499,
+          "rate": 2.0321
+        },
+        {
+          "events": 1038,
+          "opportunities": 498,
+          "rate": 2.0843
+        },
+        {
+          "events": 1028,
+          "opportunities": 499,
+          "rate": 2.0601
+        },
+        {
+          "events": 1063,
+          "opportunities": 502,
+          "rate": 2.1175
+        },
+        {
+          "events": 1035,
+          "opportunities": 505,
+          "rate": 2.0495
+        },
+        {
+          "events": 1047,
+          "opportunities": 505,
+          "rate": 2.0733
+        },
+        {
+          "events": 1053,
+          "opportunities": 502,
+          "rate": 2.0976
+        }
+      ],
+      [
+        {
+          "events": 1100,
+          "opportunities": 523,
+          "rate": 2.1033
+        },
+        {
+          "events": 1011,
+          "opportunities": 521,
+          "rate": 1.9405
+        },
+        {
+          "events": 1046,
+          "opportunities": 517,
+          "rate": 2.0232
+        },
+        {
+          "events": 1067,
+          "opportunities": 514,
+          "rate": 2.0759
+        },
+        {
+          "events": 1082,
+          "opportunities": 514,
+          "rate": 2.1051
+        },
+        {
+          "events": 1188,
+          "opportunities": 517,
+          "rate": 2.2979
+        },
+        {
+          "events": 1250,
+          "opportunities": 521,
+          "rate": 2.3992
+        }
+      ]
+    ],
+    "5.5": [
+      [
+        {
+          "events": 353,
+          "opportunities": 518,
+          "rate": 0.6815
+        },
+        {
+          "events": 333,
+          "opportunities": 522,
+          "rate": 0.6379
+        },
+        {
+          "events": 376,
+          "opportunities": 523,
+          "rate": 0.7189
+        },
+        {
+          "events": 340,
+          "opportunities": 520,
+          "rate": 0.6538
+        },
+        {
+          "events": 327,
+          "opportunities": 517,
+          "rate": 0.6325
+        },
+        {
+          "events": 320,
+          "opportunities": 513,
+          "rate": 0.6238
+        },
+        {
+          "events": 304,
+          "opportunities": 514,
+          "rate": 0.5914
+        }
+      ],
+      [
+        {
+          "events": 326,
+          "opportunities": 472,
+          "rate": 0.6907
+        },
+        {
+          "events": 289,
+          "opportunities": 471,
+          "rate": 0.6136
+        },
+        {
+          "events": 358,
+          "opportunities": 472,
+          "rate": 0.7585
+        },
+        {
+          "events": 346,
+          "opportunities": 473,
+          "rate": 0.7315
+        },
+        {
+          "events": 338,
+          "opportunities": 472,
+          "rate": 0.7161
+        },
+        {
+          "events": 332,
+          "opportunities": 472,
+          "rate": 0.7034
+        },
+        {
+          "events": 301,
+          "opportunities": 472,
+          "rate": 0.6377
+        }
+      ],
+      [
+        {
+          "events": 389,
+          "opportunities": 517,
+          "rate": 0.7524
+        },
+        {
+          "events": 364,
+          "opportunities": 514,
+          "rate": 0.7082
+        },
+        {
+          "events": 368,
+          "opportunities": 514,
+          "rate": 0.716
+        },
+        {
+          "events": 370,
+          "opportunities": 517,
+          "rate": 0.7157
+        },
+        {
+          "events": 391,
+          "opportunities": 521,
+          "rate": 0.7505
+        },
+        {
+          "events": 411,
+          "opportunities": 523,
+          "rate": 0.7859
+        },
+        {
+          "events": 418,
+          "opportunities": 521,
+          "rate": 0.8023
+        }
+      ],
+      [
+        {
+          "events": 386,
+          "opportunities": 505,
+          "rate": 0.7644
+        },
+        {
+          "events": 401,
+          "opportunities": 505,
+          "rate": 0.7941
+        },
+        {
+          "events": 410,
+          "opportunities": 502,
+          "rate": 0.8167
+        },
+        {
+          "events": 392,
+          "opportunities": 499,
+          "rate": 0.7856
+        },
+        {
+          "events": 393,
+          "opportunities": 498,
+          "rate": 0.7892
+        },
+        {
+          "events": 405,
+          "opportunities": 499,
+          "rate": 0.8116
+        },
+        {
+          "events": 375,
+          "opportunities": 502,
+          "rate": 0.747
+        }
+      ],
+      [
+        {
+          "events": 430,
+          "opportunities": 514,
+          "rate": 0.8366
+        },
+        {
+          "events": 445,
+          "opportunities": 517,
+          "rate": 0.8607
+        },
+        {
+          "events": 411,
+          "opportunities": 521,
+          "rate": 0.7889
+        },
+        {
+          "events": 422,
+          "opportunities": 523,
+          "rate": 0.8069
+        },
+        {
+          "events": 421,
+          "opportunities": 521,
+          "rate": 0.8081
+        },
+        {
+          "events": 405,
+          "opportunities": 517,
+          "rate": 0.7834
+        },
+        {
+          "events": 420,
+          "opportunities": 514,
+          "rate": 0.8171
+        }
+      ],
+      [
+        {
+          "events": 407,
+          "opportunities": 502,
+          "rate": 0.8108
+        },
+        {
+          "events": 403,
+          "opportunities": 499,
+          "rate": 0.8076
+        },
+        {
+          "events": 421,
+          "opportunities": 498,
+          "rate": 0.8454
+        },
+        {
+          "events": 371,
+          "opportunities": 499,
+          "rate": 0.7435
+        },
+        {
+          "events": 425,
+          "opportunities": 502,
+          "rate": 0.8466
+        },
+        {
+          "events": 396,
+          "opportunities": 505,
+          "rate": 0.7842
+        },
+        {
+          "events": 424,
+          "opportunities": 505,
+          "rate": 0.8396
+        }
+      ],
+      [
+        {
+          "events": 425,
+          "opportunities": 521,
+          "rate": 0.8157
+        },
+        {
+          "events": 436,
+          "opportunities": 523,
+          "rate": 0.8337
+        },
+        {
+          "events": 447,
+          "opportunities": 521,
+          "rate": 0.858
+        },
+        {
+          "events": 390,
+          "opportunities": 517,
+          "rate": 0.7544
+        },
+        {
+          "events": 394,
+          "opportunities": 514,
+          "rate": 0.7665
+        },
+        {
+          "events": 401,
+          "opportunities": 514,
+          "rate": 0.7802
+        },
+        {
+          "events": 417,
+          "opportunities": 517,
+          "rate": 0.8066
+        }
+      ],
+      [
+        {
+          "events": 422,
+          "opportunities": 514,
+          "rate": 0.821
+        },
+        {
+          "events": 451,
+          "opportunities": 514,
+          "rate": 0.8774
+        },
+        {
+          "events": 434,
+          "opportunities": 517,
+          "rate": 0.8395
+        },
+        {
+          "events": 496,
+          "opportunities": 521,
+          "rate": 0.952
+        },
+        {
+          "events": 407,
+          "opportunities": 523,
+          "rate": 0.7782
+        },
+        {
+          "events": 418,
+          "opportunities": 521,
+          "rate": 0.8023
+        },
+        {
+          "events": 449,
+          "opportunities": 517,
+          "rate": 0.8685
+        }
+      ],
+      [
+        {
+          "events": 427,
+          "opportunities": 505,
+          "rate": 0.8455
+        },
+        {
+          "events": 412,
+          "opportunities": 502,
+          "rate": 0.8207
+        },
+        {
+          "events": 451,
+          "opportunities": 499,
+          "rate": 0.9038
+        },
+        {
+          "events": 409,
+          "opportunities": 498,
+          "rate": 0.8213
+        },
+        {
+          "events": 418,
+          "opportunities": 499,
+          "rate": 0.8377
+        },
+        {
+          "events": 429,
+          "opportunities": 502,
+          "rate": 0.8546
+        },
+        {
+          "events": 383,
+          "opportunities": 505,
+          "rate": 0.7584
+        }
+      ],
+      [
+        {
+          "events": 394,
+          "opportunities": 517,
+          "rate": 0.7621
+        },
+        {
+          "events": 426,
+          "opportunities": 521,
+          "rate": 0.8177
+        },
+        {
+          "events": 431,
+          "opportunities": 523,
+          "rate": 0.8241
+        },
+        {
+          "events": 374,
+          "opportunities": 521,
+          "rate": 0.7179
+        },
+        {
+          "events": 432,
+          "opportunities": 517,
+          "rate": 0.8356
+        },
+        {
+          "events": 442,
+          "opportunities": 514,
+          "rate": 0.8599
+        },
+        {
+          "events": 433,
+          "opportunities": 514,
+          "rate": 0.8424
+        }
+      ],
+      [
+        {
+          "events": 382,
+          "opportunities": 499,
+          "rate": 0.7655
+        },
+        {
+          "events": 415,
+          "opportunities": 498,
+          "rate": 0.8333
+        },
+        {
+          "events": 424,
+          "opportunities": 499,
+          "rate": 0.8497
+        },
+        {
+          "events": 421,
+          "opportunities": 502,
+          "rate": 0.8386
+        },
+        {
+          "events": 413,
+          "opportunities": 505,
+          "rate": 0.8178
+        },
+        {
+          "events": 420,
+          "opportunities": 505,
+          "rate": 0.8317
+        },
+        {
+          "events": 424,
+          "opportunities": 502,
+          "rate": 0.8446
+        }
+      ],
+      [
+        {
+          "events": 403,
+          "opportunities": 523,
+          "rate": 0.7706
+        },
+        {
+          "events": 381,
+          "opportunities": 521,
+          "rate": 0.7313
+        },
+        {
+          "events": 387,
+          "opportunities": 517,
+          "rate": 0.7485
+        },
+        {
+          "events": 399,
+          "opportunities": 514,
+          "rate": 0.7763
+        },
+        {
+          "events": 404,
+          "opportunities": 514,
+          "rate": 0.786
+        },
+        {
+          "events": 440,
+          "opportunities": 517,
+          "rate": 0.8511
+        },
+        {
+          "events": 454,
+          "opportunities": 521,
+          "rate": 0.8714
+        }
+      ]
+    ],
+    "6.0": [
+      [
+        {
+          "events": 149,
+          "opportunities": 518,
+          "rate": 0.2876
+        },
+        {
+          "events": 141,
+          "opportunities": 522,
+          "rate": 0.2701
+        },
+        {
+          "events": 143,
+          "opportunities": 523,
+          "rate": 0.2734
+        },
+        {
+          "events": 121,
+          "opportunities": 520,
+          "rate": 0.2327
+        },
+        {
+          "events": 118,
+          "opportunities": 517,
+          "rate": 0.2282
+        },
+        {
+          "events": 142,
+          "opportunities": 513,
+          "rate": 0.2768
+        },
+        {
+          "events": 117,
+          "opportunities": 514,
+          "rate": 0.2276
+        }
+      ],
+      [
+        {
+          "events": 128,
+          "opportunities": 472,
+          "rate": 0.2712
+        },
+        {
+          "events": 111,
+          "opportunities": 471,
+          "rate": 0.2357
+        },
+        {
+          "events": 116,
+          "opportunities": 472,
+          "rate": 0.2458
+        },
+        {
+          "events": 115,
+          "opportunities": 473,
+          "rate": 0.2431
+        },
+        {
+          "events": 132,
+          "opportunities": 472,
+          "rate": 0.2797
+        },
+        {
+          "events": 132,
+          "opportunities": 472,
+          "rate": 0.2797
+        },
+        {
+          "events": 111,
+          "opportunities": 472,
+          "rate": 0.2352
+        }
+      ],
+      [
+        {
+          "events": 151,
+          "opportunities": 517,
+          "rate": 0.2921
+        },
+        {
+          "events": 144,
+          "opportunities": 514,
+          "rate": 0.2802
+        },
+        {
+          "events": 143,
+          "opportunities": 514,
+          "rate": 0.2782
+        },
+        {
+          "events": 147,
+          "opportunities": 517,
+          "rate": 0.2843
+        },
+        {
+          "events": 135,
+          "opportunities": 521,
+          "rate": 0.2591
+        },
+        {
+          "events": 159,
+          "opportunities": 523,
+          "rate": 0.304
+        },
+        {
+          "events": 172,
+          "opportunities": 521,
+          "rate": 0.3301
+        }
+      ],
+      [
+        {
+          "events": 154,
+          "opportunities": 505,
+          "rate": 0.305
+        },
+        {
+          "events": 150,
+          "opportunities": 505,
+          "rate": 0.297
+        },
+        {
+          "events": 157,
+          "opportunities": 502,
+          "rate": 0.3127
+        },
+        {
+          "events": 149,
+          "opportunities": 499,
+          "rate": 0.2986
+        },
+        {
+          "events": 150,
+          "opportunities": 498,
+          "rate": 0.3012
+        },
+        {
+          "events": 148,
+          "opportunities": 499,
+          "rate": 0.2966
+        },
+        {
+          "events": 147,
+          "opportunities": 502,
+          "rate": 0.2928
+        }
+      ],
+      [
+        {
+          "events": 158,
+          "opportunities": 514,
+          "rate": 0.3074
+        },
+        {
+          "events": 165,
+          "opportunities": 517,
+          "rate": 0.3191
+        },
+        {
+          "events": 166,
+          "opportunities": 521,
+          "rate": 0.3186
+        },
+        {
+          "events": 164,
+          "opportunities": 523,
+          "rate": 0.3136
+        },
+        {
+          "events": 148,
+          "opportunities": 521,
+          "rate": 0.2841
+        },
+        {
+          "events": 152,
+          "opportunities": 517,
+          "rate": 0.294
+        },
+        {
+          "events": 157,
+          "opportunities": 514,
+          "rate": 0.3054
+        }
+      ],
+      [
+        {
+          "events": 155,
+          "opportunities": 502,
+          "rate": 0.3088
+        },
+        {
+          "events": 147,
+          "opportunities": 499,
+          "rate": 0.2946
+        },
+        {
+          "events": 142,
+          "opportunities": 498,
+          "rate": 0.2851
+        },
+        {
+          "events": 142,
+          "opportunities": 499,
+          "rate": 0.2846
+        },
+        {
+          "events": 129,
+          "opportunities": 502,
+          "rate": 0.257
+        },
+        {
+          "events": 132,
+          "opportunities": 505,
+          "rate": 0.2614
+        },
+        {
+          "events": 160,
+          "opportunities": 505,
+          "rate": 0.3168
+        }
+      ],
+      [
+        {
+          "events": 165,
+          "opportunities": 521,
+          "rate": 0.3167
+        },
+        {
+          "events": 144,
+          "opportunities": 523,
+          "rate": 0.2753
+        },
+        {
+          "events": 169,
+          "opportunities": 521,
+          "rate": 0.3244
+        },
+        {
+          "events": 139,
+          "opportunities": 517,
+          "rate": 0.2689
+        },
+        {
+          "events": 141,
+          "opportunities": 514,
+          "rate": 0.2743
+        },
+        {
+          "events": 125,
+          "opportunities": 514,
+          "rate": 0.2432
+        },
+        {
+          "events": 164,
+          "opportunities": 517,
+          "rate": 0.3172
+        }
+      ],
+      [
+        {
+          "events": 160,
+          "opportunities": 514,
+          "rate": 0.3113
+        },
+        {
+          "events": 150,
+          "opportunities": 514,
+          "rate": 0.2918
+        },
+        {
+          "events": 133,
+          "opportunities": 517,
+          "rate": 0.2573
+        },
+        {
+          "events": 174,
+          "opportunities": 521,
+          "rate": 0.334
+        },
+        {
+          "events": 154,
+          "opportunities": 523,
+          "rate": 0.2945
+        },
+        {
+          "events": 169,
+          "opportunities": 521,
+          "rate": 0.3244
+        },
+        {
+          "events": 167,
+          "opportunities": 517,
+          "rate": 0.323
+        }
+      ],
+      [
+        {
+          "events": 162,
+          "opportunities": 505,
+          "rate": 0.3208
+        },
+        {
+          "events": 148,
+          "opportunities": 502,
+          "rate": 0.2948
+        },
+        {
+          "events": 174,
+          "opportunities": 499,
+          "rate": 0.3487
+        },
+        {
+          "events": 154,
+          "opportunities": 498,
+          "rate": 0.3092
+        },
+        {
+          "events": 160,
+          "opportunities": 499,
+          "rate": 0.3206
+        },
+        {
+          "events": 163,
+          "opportunities": 502,
+          "rate": 0.3247
+        },
+        {
+          "events": 139,
+          "opportunities": 505,
+          "rate": 0.2752
+        }
+      ],
+      [
+        {
+          "events": 172,
+          "opportunities": 517,
+          "rate": 0.3327
+        },
+        {
+          "events": 159,
+          "opportunities": 521,
+          "rate": 0.3052
+        },
+        {
+          "events": 158,
+          "opportunities": 523,
+          "rate": 0.3021
+        },
+        {
+          "events": 159,
+          "opportunities": 521,
+          "rate": 0.3052
+        },
+        {
+          "events": 181,
+          "opportunities": 517,
+          "rate": 0.3501
+        },
+        {
+          "events": 168,
+          "opportunities": 514,
+          "rate": 0.3268
+        },
+        {
+          "events": 157,
+          "opportunities": 514,
+          "rate": 0.3054
+        }
+      ],
+      [
+        {
+          "events": 156,
+          "opportunities": 499,
+          "rate": 0.3126
+        },
+        {
+          "events": 169,
+          "opportunities": 498,
+          "rate": 0.3394
+        },
+        {
+          "events": 161,
+          "opportunities": 499,
+          "rate": 0.3226
+        },
+        {
+          "events": 170,
+          "opportunities": 502,
+          "rate": 0.3386
+        },
+        {
+          "events": 156,
+          "opportunities": 505,
+          "rate": 0.3089
+        },
+        {
+          "events": 161,
+          "opportunities": 505,
+          "rate": 0.3188
+        },
+        {
+          "events": 179,
+          "opportunities": 502,
+          "rate": 0.3566
+        }
+      ],
+      [
+        {
+          "events": 150,
+          "opportunities": 523,
+          "rate": 0.2868
+        },
+        {
+          "events": 135,
+          "opportunities": 521,
+          "rate": 0.2591
+        },
+        {
+          "events": 148,
+          "opportunities": 517,
+          "rate": 0.2863
+        },
+        {
+          "events": 143,
+          "opportunities": 514,
+          "rate": 0.2782
+        },
+        {
+          "events": 152,
+          "opportunities": 514,
+          "rate": 0.2957
+        },
+        {
+          "events": 177,
+          "opportunities": 517,
+          "rate": 0.3424
+        },
+        {
+          "events": 161,
+          "opportunities": 521,
+          "rate": 0.309
+        }
+      ]
+    ],
+    "6.5": [
+      [
+        {
+          "events": 53,
+          "opportunities": 518,
+          "rate": 0.1023
+        },
+        {
+          "events": 49,
+          "opportunities": 522,
+          "rate": 0.0939
+        },
+        {
+          "events": 46,
+          "opportunities": 523,
+          "rate": 0.088
+        },
+        {
+          "events": 36,
+          "opportunities": 520,
+          "rate": 0.0692
+        },
+        {
+          "events": 38,
+          "opportunities": 517,
+          "rate": 0.0735
+        },
+        {
+          "events": 45,
+          "opportunities": 513,
+          "rate": 0.0877
+        },
+        {
+          "events": 52,
+          "opportunities": 514,
+          "rate": 0.1012
+        }
+      ],
+      [
+        {
+          "events": 45,
+          "opportunities": 472,
+          "rate": 0.0953
+        },
+        {
+          "events": 41,
+          "opportunities": 471,
+          "rate": 0.087
+        },
+        {
+          "events": 34,
+          "opportunities": 472,
+          "rate": 0.072
+        },
+        {
+          "events": 46,
+          "opportunities": 473,
+          "rate": 0.0973
+        },
+        {
+          "events": 45,
+          "opportunities": 472,
+          "rate": 0.0953
+        },
+        {
+          "events": 46,
+          "opportunities": 472,
+          "rate": 0.0975
+        },
+        {
+          "events": 38,
+          "opportunities": 472,
+          "rate": 0.0805
+        }
+      ],
+      [
+        {
+          "events": 54,
+          "opportunities": 517,
+          "rate": 0.1044
+        },
+        {
+          "events": 44,
+          "opportunities": 514,
+          "rate": 0.0856
+        },
+        {
+          "events": 43,
+          "opportunities": 514,
+          "rate": 0.0837
+        },
+        {
+          "events": 53,
+          "opportunities": 517,
+          "rate": 0.1025
+        },
+        {
+          "events": 46,
+          "opportunities": 521,
+          "rate": 0.0883
+        },
+        {
+          "events": 54,
+          "opportunities": 523,
+          "rate": 0.1033
+        },
+        {
+          "events": 50,
+          "opportunities": 521,
+          "rate": 0.096
+        }
+      ],
+      [
+        {
+          "events": 58,
+          "opportunities": 505,
+          "rate": 0.1149
+        },
+        {
+          "events": 53,
+          "opportunities": 505,
+          "rate": 0.105
+        },
+        {
+          "events": 52,
+          "opportunities": 502,
+          "rate": 0.1036
+        },
+        {
+          "events": 53,
+          "opportunities": 499,
+          "rate": 0.1062
+        },
+        {
+          "events": 49,
+          "opportunities": 498,
+          "rate": 0.0984
+        },
+        {
+          "events": 42,
+          "opportunities": 499,
+          "rate": 0.0842
+        },
+        {
+          "events": 40,
+          "opportunities": 502,
+          "rate": 0.0797
+        }
+      ],
+      [
+        {
+          "events": 54,
+          "opportunities": 514,
+          "rate": 0.1051
+        },
+        {
+          "events": 54,
+          "opportunities": 517,
+          "rate": 0.1044
+        },
+        {
+          "events": 48,
+          "opportunities": 521,
+          "rate": 0.0921
+        },
+        {
+          "events": 58,
+          "opportunities": 523,
+          "rate": 0.1109
+        },
+        {
+          "events": 51,
+          "opportunities": 521,
+          "rate": 0.0979
+        },
+        {
+          "events": 44,
+          "opportunities": 517,
+          "rate": 0.0851
+        },
+        {
+          "events": 49,
+          "opportunities": 514,
+          "rate": 0.0953
+        }
+      ],
+      [
+        {
+          "events": 45,
+          "opportunities": 502,
+          "rate": 0.0896
+        },
+        {
+          "events": 38,
+          "opportunities": 499,
+          "rate": 0.0762
+        },
+        {
+          "events": 52,
+          "opportunities": 498,
+          "rate": 0.1044
+        },
+        {
+          "events": 53,
+          "opportunities": 499,
+          "rate": 0.1062
+        },
+        {
+          "events": 46,
+          "opportunities": 502,
+          "rate": 0.0916
+        },
+        {
+          "events": 45,
+          "opportunities": 505,
+          "rate": 0.0891
+        },
+        {
+          "events": 47,
+          "opportunities": 505,
+          "rate": 0.0931
+        }
+      ],
+      [
+        {
+          "events": 64,
+          "opportunities": 521,
+          "rate": 0.1228
+        },
+        {
+          "events": 44,
+          "opportunities": 523,
+          "rate": 0.0841
+        },
+        {
+          "events": 57,
+          "opportunities": 521,
+          "rate": 0.1094
+        },
+        {
+          "events": 43,
+          "opportunities": 517,
+          "rate": 0.0832
+        },
+        {
+          "events": 41,
+          "opportunities": 514,
+          "rate": 0.0798
+        },
+        {
+          "events": 44,
+          "opportunities": 514,
+          "rate": 0.0856
+        },
+        {
+          "events": 64,
+          "opportunities": 517,
+          "rate": 0.1238
+        }
+      ],
+      [
+        {
+          "events": 58,
+          "opportunities": 514,
+          "rate": 0.1128
+        },
+        {
+          "events": 46,
+          "opportunities": 514,
+          "rate": 0.0895
+        },
+        {
+          "events": 49,
+          "opportunities": 517,
+          "rate": 0.0948
+        },
+        {
+          "events": 47,
+          "opportunities": 521,
+          "rate": 0.0902
+        },
+        {
+          "events": 57,
+          "opportunities": 523,
+          "rate": 0.109
+        },
+        {
+          "events": 49,
+          "opportunities": 521,
+          "rate": 0.094
+        },
+        {
+          "events": 50,
+          "opportunities": 517,
+          "rate": 0.0967
+        }
+      ],
+      [
+        {
+          "events": 45,
+          "opportunities": 505,
+          "rate": 0.0891
+        },
+        {
+          "events": 39,
+          "opportunities": 502,
+          "rate": 0.0777
+        },
+        {
+          "events": 49,
+          "opportunities": 499,
+          "rate": 0.0982
+        },
+        {
+          "events": 52,
+          "opportunities": 498,
+          "rate": 0.1044
+        },
+        {
+          "events": 51,
+          "opportunities": 499,
+          "rate": 0.1022
+        },
+        {
+          "events": 45,
+          "opportunities": 502,
+          "rate": 0.0896
+        },
+        {
+          "events": 51,
+          "opportunities": 505,
+          "rate": 0.101
+        }
+      ],
+      [
+        {
+          "events": 53,
+          "opportunities": 517,
+          "rate": 0.1025
+        },
+        {
+          "events": 59,
+          "opportunities": 521,
+          "rate": 0.1132
+        },
+        {
+          "events": 60,
+          "opportunities": 523,
+          "rate": 0.1147
+        },
+        {
+          "events": 45,
+          "opportunities": 521,
+          "rate": 0.0864
+        },
+        {
+          "events": 56,
+          "opportunities": 517,
+          "rate": 0.1083
+        },
+        {
+          "events": 55,
+          "opportunities": 514,
+          "rate": 0.107
+        },
+        {
+          "events": 46,
+          "opportunities": 514,
+          "rate": 0.0895
+        }
+      ],
+      [
+        {
+          "events": 51,
+          "opportunities": 499,
+          "rate": 0.1022
+        },
+        {
+          "events": 68,
+          "opportunities": 498,
+          "rate": 0.1365
+        },
+        {
+          "events": 58,
+          "opportunities": 499,
+          "rate": 0.1162
+        },
+        {
+          "events": 49,
+          "opportunities": 502,
+          "rate": 0.0976
+        },
+        {
+          "events": 55,
+          "opportunities": 505,
+          "rate": 0.1089
+        },
+        {
+          "events": 47,
+          "opportunities": 505,
+          "rate": 0.0931
+        },
+        {
+          "events": 63,
+          "opportunities": 502,
+          "rate": 0.1255
+        }
+      ],
+      [
+        {
+          "events": 41,
+          "opportunities": 523,
+          "rate": 0.0784
+        },
+        {
+          "events": 36,
+          "opportunities": 521,
+          "rate": 0.0691
+        },
+        {
+          "events": 52,
+          "opportunities": 517,
+          "rate": 0.1006
+        },
+        {
+          "events": 46,
+          "opportunities": 514,
+          "rate": 0.0895
+        },
+        {
+          "events": 58,
+          "opportunities": 514,
+          "rate": 0.1128
+        },
+        {
+          "events": 68,
+          "opportunities": 517,
+          "rate": 0.1315
+        },
+        {
+          "events": 57,
+          "opportunities": 521,
+          "rate": 0.1094
+        }
+      ]
+    ],
+    "7.0": [
+      [
+        {
+          "events": 20,
+          "opportunities": 518,
+          "rate": 0.0386
+        },
+        {
+          "events": 17,
+          "opportunities": 522,
+          "rate": 0.0326
+        },
+        {
+          "events": 21,
+          "opportunities": 523,
+          "rate": 0.0402
+        },
+        {
+          "events": 12,
+          "opportunities": 520,
+          "rate": 0.0231
+        },
+        {
+          "events": 12,
+          "opportunities": 517,
+          "rate": 0.0232
+        },
+        {
+          "events": 17,
+          "opportunities": 513,
+          "rate": 0.0331
+        },
+        {
+          "events": 17,
+          "opportunities": 514,
+          "rate": 0.0331
+        }
+      ],
+      [
+        {
+          "events": 18,
+          "opportunities": 472,
+          "rate": 0.0381
+        },
+        {
+          "events": 15,
+          "opportunities": 471,
+          "rate": 0.0318
+        },
+        {
+          "events": 20,
+          "opportunities": 472,
+          "rate": 0.0424
+        },
+        {
+          "events": 10,
+          "opportunities": 473,
+          "rate": 0.0211
+        },
+        {
+          "events": 13,
+          "opportunities": 472,
+          "rate": 0.0275
+        },
+        {
+          "events": 16,
+          "opportunities": 472,
+          "rate": 0.0339
+        },
+        {
+          "events": 14,
+          "opportunities": 472,
+          "rate": 0.0297
+        }
+      ],
+      [
+        {
+          "events": 13,
+          "opportunities": 517,
+          "rate": 0.0251
+        },
+        {
+          "events": 10,
+          "opportunities": 514,
+          "rate": 0.0195
+        },
+        {
+          "events": 11,
+          "opportunities": 514,
+          "rate": 0.0214
+        },
+        {
+          "events": 21,
+          "opportunities": 517,
+          "rate": 0.0406
+        },
+        {
+          "events": 18,
+          "opportunities": 521,
+          "rate": 0.0345
+        },
+        {
+          "events": 19,
+          "opportunities": 523,
+          "rate": 0.0363
+        },
+        {
+          "events": 15,
+          "opportunities": 521,
+          "rate": 0.0288
+        }
+      ],
+      [
+        {
+          "events": 19,
+          "opportunities": 505,
+          "rate": 0.0376
+        },
+        {
+          "events": 22,
+          "opportunities": 505,
+          "rate": 0.0436
+        },
+        {
+          "events": 20,
+          "opportunities": 502,
+          "rate": 0.0398
+        },
+        {
+          "events": 15,
+          "opportunities": 499,
+          "rate": 0.0301
+        },
+        {
+          "events": 14,
+          "opportunities": 498,
+          "rate": 0.0281
+        },
+        {
+          "events": 15,
+          "opportunities": 499,
+          "rate": 0.0301
+        },
+        {
+          "events": 12,
+          "opportunities": 502,
+          "rate": 0.0239
+        }
+      ],
+      [
+        {
+          "events": 25,
+          "opportunities": 514,
+          "rate": 0.0486
+        },
+        {
+          "events": 18,
+          "opportunities": 517,
+          "rate": 0.0348
+        },
+        {
+          "events": 14,
+          "opportunities": 521,
+          "rate": 0.0269
+        },
+        {
+          "events": 23,
+          "opportunities": 523,
+          "rate": 0.044
+        },
+        {
+          "events": 15,
+          "opportunities": 521,
+          "rate": 0.0288
+        },
+        {
+          "events": 15,
+          "opportunities": 517,
+          "rate": 0.029
+        },
+        {
+          "events": 22,
+          "opportunities": 514,
+          "rate": 0.0428
+        }
+      ],
+      [
+        {
+          "events": 16,
+          "opportunities": 502,
+          "rate": 0.0319
+        },
+        {
+          "events": 16,
+          "opportunities": 499,
+          "rate": 0.0321
+        },
+        {
+          "events": 12,
+          "opportunities": 498,
+          "rate": 0.0241
+        },
+        {
+          "events": 22,
+          "opportunities": 499,
+          "rate": 0.0441
+        },
+        {
+          "events": 13,
+          "opportunities": 502,
+          "rate": 0.0259
+        },
+        {
+          "events": 13,
+          "opportunities": 505,
+          "rate": 0.0257
+        },
+        {
+          "events": 17,
+          "opportunities": 505,
+          "rate": 0.0337
+        }
+      ],
+      [
+        {
+          "events": 17,
+          "opportunities": 521,
+          "rate": 0.0326
+        },
+        {
+          "events": 11,
+          "opportunities": 523,
+          "rate": 0.021
+        },
+        {
+          "events": 21,
+          "opportunities": 521,
+          "rate": 0.0403
+        },
+        {
+          "events": 15,
+          "opportunities": 517,
+          "rate": 0.029
+        },
+        {
+          "events": 13,
+          "opportunities": 514,
+          "rate": 0.0253
+        },
+        {
+          "events": 18,
+          "opportunities": 514,
+          "rate": 0.035
+        },
+        {
+          "events": 22,
+          "opportunities": 517,
+          "rate": 0.0426
+        }
+      ],
+      [
+        {
+          "events": 22,
+          "opportunities": 514,
+          "rate": 0.0428
+        },
+        {
+          "events": 16,
+          "opportunities": 514,
+          "rate": 0.0311
+        },
+        {
+          "events": 21,
+          "opportunities": 517,
+          "rate": 0.0406
+        },
+        {
+          "events": 19,
+          "opportunities": 521,
+          "rate": 0.0365
+        },
+        {
+          "events": 25,
+          "opportunities": 523,
+          "rate": 0.0478
+        },
+        {
+          "events": 18,
+          "opportunities": 521,
+          "rate": 0.0345
+        },
+        {
+          "events": 14,
+          "opportunities": 517,
+          "rate": 0.0271
+        }
+      ],
+      [
+        {
+          "events": 11,
+          "opportunities": 505,
+          "rate": 0.0218
+        },
+        {
+          "events": 11,
+          "opportunities": 502,
+          "rate": 0.0219
+        },
+        {
+          "events": 14,
+          "opportunities": 499,
+          "rate": 0.0281
+        },
+        {
+          "events": 15,
+          "opportunities": 498,
+          "rate": 0.0301
+        },
+        {
+          "events": 21,
+          "opportunities": 499,
+          "rate": 0.0421
+        },
+        {
+          "events": 14,
+          "opportunities": 502,
+          "rate": 0.0279
+        },
+        {
+          "events": 14,
+          "opportunities": 505,
+          "rate": 0.0277
+        }
+      ],
+      [
+        {
+          "events": 21,
+          "opportunities": 517,
+          "rate": 0.0406
+        },
+        {
+          "events": 23,
+          "opportunities": 521,
+          "rate": 0.0441
+        },
+        {
+          "events": 18,
+          "opportunities": 523,
+          "rate": 0.0344
+        },
+        {
+          "events": 8,
+          "opportunities": 521,
+          "rate": 0.0154
+        },
+        {
+          "events": 19,
+          "opportunities": 517,
+          "rate": 0.0368
+        },
+        {
+          "events": 18,
+          "opportunities": 514,
+          "rate": 0.035
+        },
+        {
+          "events": 15,
+          "opportunities": 514,
+          "rate": 0.0292
+        }
+      ],
+      [
+        {
+          "events": 21,
+          "opportunities": 499,
+          "rate": 0.0421
+        },
+        {
+          "events": 21,
+          "opportunities": 498,
+          "rate": 0.0422
+        },
+        {
+          "events": 21,
+          "opportunities": 499,
+          "rate": 0.0421
+        },
+        {
+          "events": 15,
+          "opportunities": 502,
+          "rate": 0.0299
+        },
+        {
+          "events": 20,
+          "opportunities": 505,
+          "rate": 0.0396
+        },
+        {
+          "events": 25,
+          "opportunities": 505,
+          "rate": 0.0495
+        },
+        {
+          "events": 19,
+          "opportunities": 502,
+          "rate": 0.0378
+        }
+      ],
+      [
+        {
+          "events": 14,
+          "opportunities": 523,
+          "rate": 0.0268
+        },
+        {
+          "events": 10,
+          "opportunities": 521,
+          "rate": 0.0192
+        },
+        {
+          "events": 16,
+          "opportunities": 517,
+          "rate": 0.0309
+        },
+        {
+          "events": 20,
+          "opportunities": 514,
+          "rate": 0.0389
+        },
+        {
+          "events": 16,
+          "opportunities": 514,
+          "rate": 0.0311
+        },
+        {
+          "events": 36,
+          "opportunities": 517,
+          "rate": 0.0696
+        },
+        {
+          "events": 15,
+          "opportunities": 521,
+          "rate": 0.0288
+        }
+      ]
+    ],
+    "7.5": [
+      [
+        {
+          "events": 5,
+          "opportunities": 518,
+          "rate": 0.0097
+        },
+        {
+          "events": 6,
+          "opportunities": 522,
+          "rate": 0.0115
+        },
+        {
+          "events": 8,
+          "opportunities": 523,
+          "rate": 0.0153
+        },
+        {
+          "events": 4,
+          "opportunities": 520,
+          "rate": 0.0077
+        },
+        {
+          "events": 3,
+          "opportunities": 517,
+          "rate": 0.0058
+        },
+        {
+          "events": 5,
+          "opportunities": 513,
+          "rate": 0.0097
+        },
+        {
+          "events": 7,
+          "opportunities": 514,
+          "rate": 0.0136
+        }
+      ],
+      [
+        {
+          "events": 4,
+          "opportunities": 472,
+          "rate": 0.0085
+        },
+        {
+          "events": 6,
+          "opportunities": 471,
+          "rate": 0.0127
+        },
+        {
+          "events": 4,
+          "opportunities": 472,
+          "rate": 0.0085
+        },
+        {
+          "events": 1,
+          "opportunities": 473,
+          "rate": 0.0021
+        },
+        {
+          "events": 2,
+          "opportunities": 472,
+          "rate": 0.0042
+        },
+        {
+          "events": 4,
+          "opportunities": 472,
+          "rate": 0.0085
+        },
+        {
+          "events": 4,
+          "opportunities": 472,
+          "rate": 0.0085
+        }
+      ],
+      [
+        {
+          "events": 3,
+          "opportunities": 517,
+          "rate": 0.0058
+        },
+        {
+          "events": 5,
+          "opportunities": 514,
+          "rate": 0.0097
+        },
+        {
+          "events": 3,
+          "opportunities": 514,
+          "rate": 0.0058
+        },
+        {
+          "events": 5,
+          "opportunities": 517,
+          "rate": 0.0097
+        },
+        {
+          "events": 8,
+          "opportunities": 521,
+          "rate": 0.0154
+        },
+        {
+          "events": 4,
+          "opportunities": 523,
+          "rate": 0.0076
+        },
+        {
+          "events": 2,
+          "opportunities": 521,
+          "rate": 0.0038
+        }
+      ],
+      [
+        {
+          "events": 6,
+          "opportunities": 505,
+          "rate": 0.0119
+        },
+        {
+          "events": 6,
+          "opportunities": 505,
+          "rate": 0.0119
+        },
+        {
+          "events": 7,
+          "opportunities": 502,
+          "rate": 0.0139
+        },
+        {
+          "events": 4,
+          "opportunities": 499,
+          "rate": 0.008
+        },
+        {
+          "events": 0,
+          "opportunities": 498,
+          "rate": 0.0
+        },
+        {
+          "events": 4,
+          "opportunities": 499,
+          "rate": 0.008
+        },
+        {
+          "events": 2,
+          "opportunities": 502,
+          "rate": 0.004
+        }
+      ],
+      [
+        {
+          "events": 5,
+          "opportunities": 514,
+          "rate": 0.0097
+        },
+        {
+          "events": 9,
+          "opportunities": 517,
+          "rate": 0.0174
+        },
+        {
+          "events": 4,
+          "opportunities": 521,
+          "rate": 0.0077
+        },
+        {
+          "events": 8,
+          "opportunities": 523,
+          "rate": 0.0153
+        },
+        {
+          "events": 3,
+          "opportunities": 521,
+          "rate": 0.0058
+        },
+        {
+          "events": 7,
+          "opportunities": 517,
+          "rate": 0.0135
+        },
+        {
+          "events": 6,
+          "opportunities": 514,
+          "rate": 0.0117
+        }
+      ],
+      [
+        {
+          "events": 5,
+          "opportunities": 502,
+          "rate": 0.01
+        },
+        {
+          "events": 4,
+          "opportunities": 499,
+          "rate": 0.008
+        },
+        {
+          "events": 3,
+          "opportunities": 498,
+          "rate": 0.006
+        },
+        {
+          "events": 12,
+          "opportunities": 499,
+          "rate": 0.024
+        },
+        {
+          "events": 3,
+          "opportunities": 502,
+          "rate": 0.006
+        },
+        {
+          "events": 6,
+          "opportunities": 505,
+          "rate": 0.0119
+        },
+        {
+          "events": 4,
+          "opportunities": 505,
+          "rate": 0.0079
+        }
+      ],
+      [
+        {
+          "events": 7,
+          "opportunities": 521,
+          "rate": 0.0134
+        },
+        {
+          "events": 4,
+          "opportunities": 523,
+          "rate": 0.0076
+        },
+        {
+          "events": 7,
+          "opportunities": 521,
+          "rate": 0.0134
+        },
+        {
+          "events": 4,
+          "opportunities": 517,
+          "rate": 0.0077
+        },
+        {
+          "events": 4,
+          "opportunities": 514,
+          "rate": 0.0078
+        },
+        {
+          "events": 3,
+          "opportunities": 514,
+          "rate": 0.0058
+        },
+        {
+          "events": 9,
+          "opportunities": 517,
+          "rate": 0.0174
+        }
+      ],
+      [
+        {
+          "events": 9,
+          "opportunities": 514,
+          "rate": 0.0175
+        },
+        {
+          "events": 4,
+          "opportunities": 514,
+          "rate": 0.0078
+        },
+        {
+          "events": 7,
+          "opportunities": 517,
+          "rate": 0.0135
+        },
+        {
+          "events": 7,
+          "opportunities": 521,
+          "rate": 0.0134
+        },
+        {
+          "events": 9,
+          "opportunities": 523,
+          "rate": 0.0172
+        },
+        {
+          "events": 2,
+          "opportunities": 521,
+          "rate": 0.0038
+        },
+        {
+          "events": 3,
+          "opportunities": 517,
+          "rate": 0.0058
+        }
+      ],
+      [
+        {
+          "events": 5,
+          "opportunities": 505,
+          "rate": 0.0099
+        },
+        {
+          "events": 5,
+          "opportunities": 502,
+          "rate": 0.01
+        },
+        {
+          "events": 7,
+          "opportunities": 499,
+          "rate": 0.014
+        },
+        {
+          "events": 7,
+          "opportunities": 498,
+          "rate": 0.0141
+        },
+        {
+          "events": 8,
+          "opportunities": 499,
+          "rate": 0.016
+        },
+        {
+          "events": 5,
+          "opportunities": 502,
+          "rate": 0.01
+        },
+        {
+          "events": 5,
+          "opportunities": 505,
+          "rate": 0.0099
+        }
+      ],
+      [
+        {
+          "events": 4,
+          "opportunities": 517,
+          "rate": 0.0077
+        },
+        {
+          "events": 8,
+          "opportunities": 521,
+          "rate": 0.0154
+        },
+        {
+          "events": 2,
+          "opportunities": 523,
+          "rate": 0.0038
+        },
+        {
+          "events": 3,
+          "opportunities": 521,
+          "rate": 0.0058
+        },
+        {
+          "events": 2,
+          "opportunities": 517,
+          "rate": 0.0039
+        },
+        {
+          "events": 3,
+          "opportunities": 514,
+          "rate": 0.0058
+        },
+        {
+          "events": 4,
+          "opportunities": 514,
+          "rate": 0.0078
+        }
+      ],
+      [
+        {
+          "events": 5,
+          "opportunities": 499,
+          "rate": 0.01
+        },
+        {
+          "events": 9,
+          "opportunities": 498,
+          "rate": 0.0181
+        },
+        {
+          "events": 5,
+          "opportunities": 499,
+          "rate": 0.01
+        },
+        {
+          "events": 4,
+          "opportunities": 502,
+          "rate": 0.008
+        },
+        {
+          "events": 6,
+          "opportunities": 505,
+          "rate": 0.0119
+        },
+        {
+          "events": 10,
+          "opportunities": 505,
+          "rate": 0.0198
+        },
+        {
+          "events": 9,
+          "opportunities": 502,
+          "rate": 0.0179
+        }
+      ],
+      [
+        {
+          "events": 1,
+          "opportunities": 523,
+          "rate": 0.0019
+        },
+        {
+          "events": 3,
+          "opportunities": 521,
+          "rate": 0.0058
+        },
+        {
+          "events": 9,
+          "opportunities": 517,
+          "rate": 0.0174
+        },
+        {
+          "events": 6,
+          "opportunities": 514,
+          "rate": 0.0117
+        },
+        {
+          "events": 6,
+          "opportunities": 514,
+          "rate": 0.0117
+        },
+        {
+          "events": 14,
+          "opportunities": 517,
+          "rate": 0.0271
+        },
+        {
+          "events": 7,
+          "opportunities": 521,
+          "rate": 0.0134
+        }
+      ]
+    ],
+    "8.0": [
+      [
+        {
+          "events": 1,
+          "opportunities": 518,
+          "rate": 0.0019
+        },
+        {
+          "events": 1,
+          "opportunities": 522,
+          "rate": 0.0019
+        },
+        {
+          "events": 2,
+          "opportunities": 523,
+          "rate": 0.0038
+        },
+        {
+          "events": 0,
+          "opportunities": 520,
+          "rate": 0.0
+        },
+        {
+          "events": 1,
+          "opportunities": 517,
+          "rate": 0.0019
+        },
+        {
+          "events": 1,
+          "opportunities": 513,
+          "rate": 0.0019
+        },
+        {
+          "events": 2,
+          "opportunities": 514,
+          "rate": 0.0039
+        }
+      ],
+      [
+        {
+          "events": 0,
+          "opportunities": 472,
+          "rate": 0.0
+        },
+        {
+          "events": 1,
+          "opportunities": 471,
+          "rate": 0.0021
+        },
+        {
+          "events": 1,
+          "opportunities": 472,
+          "rate": 0.0021
+        },
+        {
+          "events": 1,
+          "opportunities": 473,
+          "rate": 0.0021
+        },
+        {
+          "events": 0,
+          "opportunities": 472,
+          "rate": 0.0
+        },
+        {
+          "events": 2,
+          "opportunities": 472,
+          "rate": 0.0042
+        },
+        {
+          "events": 0,
+          "opportunities": 472,
+          "rate": 0.0
+        }
+      ],
+      [
+        {
+          "events": 0,
+          "opportunities": 517,
+          "rate": 0.0
+        },
+        {
+          "events": 1,
+          "opportunities": 514,
+          "rate": 0.0019
+        },
+        {
+          "events": 1,
+          "opportunities": 514,
+          "rate": 0.0019
+        },
+        {
+          "events": 1,
+          "opportunities": 517,
+          "rate": 0.0019
+        },
+        {
+          "events": 0,
+          "opportunities": 521,
+          "rate": 0.0
+        },
+        {
+          "events": 2,
+          "opportunities": 523,
+          "rate": 0.0038
+        },
+        {
+          "events": 0,
+          "opportunities": 521,
+          "rate": 0.0
+        }
+      ],
+      [
+        {
+          "events": 2,
+          "opportunities": 505,
+          "rate": 0.004
+        },
+        {
+          "events": 3,
+          "opportunities": 505,
+          "rate": 0.0059
+        },
+        {
+          "events": 1,
+          "opportunities": 502,
+          "rate": 0.002
+        },
+        {
+          "events": 0,
+          "opportunities": 499,
+          "rate": 0.0
+        },
+        {
+          "events": 0,
+          "opportunities": 498,
+          "rate": 0.0
+        },
+        {
+          "events": 0,
+          "opportunities": 499,
+          "rate": 0.0
+        },
+        {
+          "events": 1,
+          "opportunities": 502,
+          "rate": 0.002
+        }
+      ],
+      [
+        {
+          "events": 0,
+          "opportunities": 514,
+          "rate": 0.0
+        },
+        {
+          "events": 4,
+          "opportunities": 517,
+          "rate": 0.0077
+        },
+        {
+          "events": 1,
+          "opportunities": 521,
+          "rate": 0.0019
+        },
+        {
+          "events": 1,
+          "opportunities": 523,
+          "rate": 0.0019
+        },
+        {
+          "events": 2,
+          "opportunities": 521,
+          "rate": 0.0038
+        },
+        {
+          "events": 1,
+          "opportunities": 517,
+          "rate": 0.0019
+        },
+        {
+          "events": 2,
+          "opportunities": 514,
+          "rate": 0.0039
+        }
+      ],
+      [
+        {
+          "events": 0,
+          "opportunities": 502,
+          "rate": 0.0
+        },
+        {
+          "events": 1,
+          "opportunities": 499,
+          "rate": 0.002
+        },
+        {
+          "events": 0,
+          "opportunities": 498,
+          "rate": 0.0
+        },
+        {
+          "events": 2,
+          "opportunities": 499,
+          "rate": 0.004
+        },
+        {
+          "events": 1,
+          "opportunities": 502,
+          "rate": 0.002
+        },
+        {
+          "events": 2,
+          "opportunities": 505,
+          "rate": 0.004
+        },
+        {
+          "events": 0,
+          "opportunities": 505,
+          "rate": 0.0
+        }
+      ],
+      [
+        {
+          "events": 1,
+          "opportunities": 521,
+          "rate": 0.0019
+        },
+        {
+          "events": 1,
+          "opportunities": 523,
+          "rate": 0.0019
+        },
+        {
+          "events": 1,
+          "opportunities": 521,
+          "rate": 0.0019
+        },
+        {
+          "events": 0,
+          "opportunities": 517,
+          "rate": 0.0
+        },
+        {
+          "events": 1,
+          "opportunities": 514,
+          "rate": 0.0019
+        },
+        {
+          "events": 0,
+          "opportunities": 514,
+          "rate": 0.0
+        },
+        {
+          "events": 2,
+          "opportunities": 517,
+          "rate": 0.0039
+        }
+      ],
+      [
+        {
+          "events": 3,
+          "opportunities": 514,
+          "rate": 0.0058
+        },
+        {
+          "events": 1,
+          "opportunities": 514,
+          "rate": 0.0019
+        },
+        {
+          "events": 1,
+          "opportunities": 517,
+          "rate": 0.0019
+        },
+        {
+          "events": 1,
+          "opportunities": 521,
+          "rate": 0.0019
+        },
+        {
+          "events": 3,
+          "opportunities": 523,
+          "rate": 0.0057
+        },
+        {
+          "events": 0,
+          "opportunities": 521,
+          "rate": 0.0
+        },
+        {
+          "events": 1,
+          "opportunities": 517,
+          "rate": 0.0019
+        }
+      ],
+      [
+        {
+          "events": 1,
+          "opportunities": 505,
+          "rate": 0.002
+        },
+        {
+          "events": 1,
+          "opportunities": 502,
+          "rate": 0.002
+        },
+        {
+          "events": 1,
+          "opportunities": 499,
+          "rate": 0.002
+        },
+        {
+          "events": 2,
+          "opportunities": 498,
+          "rate": 0.004
+        },
+        {
+          "events": 2,
+          "opportunities": 499,
+          "rate": 0.004
+        },
+        {
+          "events": 1,
+          "opportunities": 502,
+          "rate": 0.002
+        },
+        {
+          "events": 0,
+          "opportunities": 505,
+          "rate": 0.0
+        }
+      ],
+      [
+        {
+          "events": 2,
+          "opportunities": 517,
+          "rate": 0.0039
+        },
+        {
+          "events": 1,
+          "opportunities": 521,
+          "rate": 0.0019
+        },
+        {
+          "events": 0,
+          "opportunities": 523,
+          "rate": 0.0
+        },
+        {
+          "events": 0,
+          "opportunities": 521,
+          "rate": 0.0
+        },
+        {
+          "events": 0,
+          "opportunities": 517,
+          "rate": 0.0
+        },
+        {
+          "events": 0,
+          "opportunities": 514,
+          "rate": 0.0
+        },
+        {
+          "events": 1,
+          "opportunities": 514,
+          "rate": 0.0019
+        }
+      ],
+      [
+        {
+          "events": 1,
+          "opportunities": 499,
+          "rate": 0.002
+        },
+        {
+          "events": 4,
+          "opportunities": 498,
+          "rate": 0.008
+        },
+        {
+          "events": 0,
+          "opportunities": 499,
+          "rate": 0.0
+        },
+        {
+          "events": 2,
+          "opportunities": 502,
+          "rate": 0.004
+        },
+        {
+          "events": 0,
+          "opportunities": 505,
+          "rate": 0.0
+        },
+        {
+          "events": 1,
+          "opportunities": 505,
+          "rate": 0.002
+        },
+        {
+          "events": 0,
+          "opportunities": 502,
+          "rate": 0.0
+        }
+      ],
+      [
+        {
+          "events": 0,
+          "opportunities": 523,
+          "rate": 0.0
+        },
+        {
+          "events": 0,
+          "opportunities": 521,
+          "rate": 0.0
+        },
+        {
+          "events": 2,
+          "opportunities": 517,
+          "rate": 0.0039
+        },
+        {
+          "events": 3,
+          "opportunities": 514,
+          "rate": 0.0058
+        },
+        {
+          "events": 1,
+          "opportunities": 514,
+          "rate": 0.0019
+        },
+        {
+          "events": 2,
+          "opportunities": 517,
+          "rate": 0.0039
+        },
+        {
+          "events": 1,
+          "opportunities": 521,
+          "rate": 0.0019
+        }
+      ]
+    ]
+  },
+  "day_of_month": {
+    "4.5": [
+      {
+        "day": 1,
+        "events": 7339,
+        "opportunities": 1404,
+        "rate": 5.2272
+      },
+      {
+        "day": 2,
+        "events": 7439,
+        "opportunities": 1404,
+        "rate": 5.2984
+      },
+      {
+        "day": 3,
+        "events": 7762,
+        "opportunities": 1404,
+        "rate": 5.5285
+      },
+      {
+        "day": 4,
+        "events": 7247,
+        "opportunities": 1404,
+        "rate": 5.1617
+      },
+      {
+        "day": 5,
+        "events": 7444,
+        "opportunities": 1404,
+        "rate": 5.302
+      },
+      {
+        "day": 6,
+        "events": 7674,
+        "opportunities": 1404,
+        "rate": 5.4658
+      },
+      {
+        "day": 7,
+        "events": 7407,
+        "opportunities": 1404,
+        "rate": 5.2756
+      },
+      {
+        "day": 8,
+        "events": 7444,
+        "opportunities": 1404,
+        "rate": 5.302
+      },
+      {
+        "day": 9,
+        "events": 7353,
+        "opportunities": 1404,
+        "rate": 5.2372
+      },
+      {
+        "day": 10,
+        "events": 7606,
+        "opportunities": 1404,
+        "rate": 5.4174
+      },
+      {
+        "day": 11,
+        "events": 7399,
+        "opportunities": 1404,
+        "rate": 5.2699
+      },
+      {
+        "day": 12,
+        "events": 7439,
+        "opportunities": 1404,
+        "rate": 5.2984
+      },
+      {
+        "day": 13,
+        "events": 7286,
+        "opportunities": 1404,
+        "rate": 5.1895
+      },
+      {
+        "day": 14,
+        "events": 7349,
+        "opportunities": 1404,
+        "rate": 5.2343
+      },
+      {
+        "day": 15,
+        "events": 7346,
+        "opportunities": 1404,
+        "rate": 5.2322
+      },
+      {
+        "day": 16,
+        "events": 7438,
+        "opportunities": 1404,
+        "rate": 5.2977
+      },
+      {
+        "day": 17,
+        "events": 7493,
+        "opportunities": 1404,
+        "rate": 5.3369
+      },
+      {
+        "day": 18,
+        "events": 7591,
+        "opportunities": 1404,
+        "rate": 5.4067
+      },
+      {
+        "day": 19,
+        "events": 7757,
+        "opportunities": 1404,
+        "rate": 5.5249
+      },
+      {
+        "day": 20,
+        "events": 7647,
+        "opportunities": 1404,
+        "rate": 5.4466
+      },
+      {
+        "day": 21,
+        "events": 7667,
+        "opportunities": 1404,
+        "rate": 5.4608
+      },
+      {
+        "day": 22,
+        "events": 7588,
+        "opportunities": 1404,
+        "rate": 5.4046
+      },
+      {
+        "day": 23,
+        "events": 7349,
+        "opportunities": 1404,
+        "rate": 5.2343
+      },
+      {
+        "day": 24,
+        "events": 7521,
+        "opportunities": 1404,
+        "rate": 5.3568
+      },
+      {
+        "day": 25,
+        "events": 7332,
+        "opportunities": 1404,
+        "rate": 5.2222
+      },
+      {
+        "day": 26,
+        "events": 7649,
+        "opportunities": 1404,
+        "rate": 5.448
+      },
+      {
+        "day": 27,
+        "events": 7334,
+        "opportunities": 1404,
+        "rate": 5.2236
+      },
+      {
+        "day": 28,
+        "events": 7610,
+        "opportunities": 1404,
+        "rate": 5.4202
+      },
+      {
+        "day": 29,
+        "events": 7125,
+        "opportunities": 1315,
+        "rate": 5.4183
+      },
+      {
+        "day": 30,
+        "events": 6988,
+        "opportunities": 1287,
+        "rate": 5.4297
+      },
+      {
+        "day": 31,
+        "events": 4230,
+        "opportunities": 819,
+        "rate": 5.1648
+      }
+    ],
+    "5.0": [
+      {
+        "day": 1,
+        "events": 2761,
+        "opportunities": 1404,
+        "rate": 1.9665
+      },
+      {
+        "day": 2,
+        "events": 2752,
+        "opportunities": 1404,
+        "rate": 1.9601
+      },
+      {
+        "day": 3,
+        "events": 2876,
+        "opportunities": 1404,
+        "rate": 2.0484
+      },
+      {
+        "day": 4,
+        "events": 2768,
+        "opportunities": 1404,
+        "rate": 1.9715
+      },
+      {
+        "day": 5,
+        "events": 2752,
+        "opportunities": 1404,
+        "rate": 1.9601
+      },
+      {
+        "day": 6,
+        "events": 2866,
+        "opportunities": 1404,
+        "rate": 2.0413
+      },
+      {
+        "day": 7,
+        "events": 2784,
+        "opportunities": 1404,
+        "rate": 1.9829
+      },
+      {
+        "day": 8,
+        "events": 2688,
+        "opportunities": 1404,
+        "rate": 1.9145
+      },
+      {
+        "day": 9,
+        "events": 2688,
+        "opportunities": 1404,
+        "rate": 1.9145
+      },
+      {
+        "day": 10,
+        "events": 2802,
+        "opportunities": 1404,
+        "rate": 1.9957
+      },
+      {
+        "day": 11,
+        "events": 2778,
+        "opportunities": 1404,
+        "rate": 1.9786
+      },
+      {
+        "day": 12,
+        "events": 2700,
+        "opportunities": 1404,
+        "rate": 1.9231
+      },
+      {
+        "day": 13,
+        "events": 2685,
+        "opportunities": 1404,
+        "rate": 1.9124
+      },
+      {
+        "day": 14,
+        "events": 2751,
+        "opportunities": 1404,
+        "rate": 1.9594
+      },
+      {
+        "day": 15,
+        "events": 2668,
+        "opportunities": 1404,
+        "rate": 1.9003
+      },
+      {
+        "day": 16,
+        "events": 2772,
+        "opportunities": 1404,
+        "rate": 1.9744
+      },
+      {
+        "day": 17,
+        "events": 2819,
+        "opportunities": 1404,
+        "rate": 2.0078
+      },
+      {
+        "day": 18,
+        "events": 2817,
+        "opportunities": 1404,
+        "rate": 2.0064
+      },
+      {
+        "day": 19,
+        "events": 2876,
+        "opportunities": 1404,
+        "rate": 2.0484
+      },
+      {
+        "day": 20,
+        "events": 2872,
+        "opportunities": 1404,
+        "rate": 2.0456
+      },
+      {
+        "day": 21,
+        "events": 2890,
+        "opportunities": 1404,
+        "rate": 2.0584
+      },
+      {
+        "day": 22,
+        "events": 2809,
+        "opportunities": 1404,
+        "rate": 2.0007
+      },
+      {
+        "day": 23,
+        "events": 2878,
+        "opportunities": 1404,
+        "rate": 2.0499
+      },
+      {
+        "day": 24,
+        "events": 2804,
+        "opportunities": 1404,
+        "rate": 1.9972
+      },
+      {
+        "day": 25,
+        "events": 2743,
+        "opportunities": 1404,
+        "rate": 1.9537
+      },
+      {
+        "day": 26,
+        "events": 2856,
+        "opportunities": 1404,
+        "rate": 2.0342
+      },
+      {
+        "day": 27,
+        "events": 2699,
+        "opportunities": 1404,
+        "rate": 1.9224
+      },
+      {
+        "day": 28,
+        "events": 2822,
+        "opportunities": 1404,
+        "rate": 2.01
+      },
+      {
+        "day": 29,
+        "events": 2655,
+        "opportunities": 1315,
+        "rate": 2.019
+      },
+      {
+        "day": 30,
+        "events": 2541,
+        "opportunities": 1287,
+        "rate": 1.9744
+      },
+      {
+        "day": 31,
+        "events": 1545,
+        "opportunities": 819,
+        "rate": 1.8864
+      }
+    ],
+    "5.5": [
+      {
+        "day": 1,
+        "events": 1120,
+        "opportunities": 1404,
+        "rate": 0.7977
+      },
+      {
+        "day": 2,
+        "events": 1094,
+        "opportunities": 1404,
+        "rate": 0.7792
+      },
+      {
+        "day": 3,
+        "events": 1107,
+        "opportunities": 1404,
+        "rate": 0.7885
+      },
+      {
+        "day": 4,
+        "events": 1079,
+        "opportunities": 1404,
+        "rate": 0.7685
+      },
+      {
+        "day": 5,
+        "events": 1095,
+        "opportunities": 1404,
+        "rate": 0.7799
+      },
+      {
+        "day": 6,
+        "events": 1129,
+        "opportunities": 1404,
+        "rate": 0.8041
+      },
+      {
+        "day": 7,
+        "events": 1118,
+        "opportunities": 1404,
+        "rate": 0.7963
+      },
+      {
+        "day": 8,
+        "events": 1068,
+        "opportunities": 1404,
+        "rate": 0.7607
+      },
+      {
+        "day": 9,
+        "events": 1083,
+        "opportunities": 1404,
+        "rate": 0.7714
+      },
+      {
+        "day": 10,
+        "events": 1078,
+        "opportunities": 1404,
+        "rate": 0.7678
+      },
+      {
+        "day": 11,
+        "events": 1095,
+        "opportunities": 1404,
+        "rate": 0.7799
+      },
+      {
+        "day": 12,
+        "events": 1106,
+        "opportunities": 1404,
+        "rate": 0.7877
+      },
+      {
+        "day": 13,
+        "events": 1073,
+        "opportunities": 1404,
+        "rate": 0.7642
+      },
+      {
+        "day": 14,
+        "events": 1163,
+        "opportunities": 1404,
+        "rate": 0.8283
+      },
+      {
+        "day": 15,
+        "events": 1053,
+        "opportunities": 1404,
+        "rate": 0.75
+      },
+      {
+        "day": 16,
+        "events": 1078,
+        "opportunities": 1404,
+        "rate": 0.7678
+      },
+      {
+        "day": 17,
+        "events": 1111,
+        "opportunities": 1404,
+        "rate": 0.7913
+      },
+      {
+        "day": 18,
+        "events": 1131,
+        "opportunities": 1404,
+        "rate": 0.8056
+      },
+      {
+        "day": 19,
+        "events": 1144,
+        "opportunities": 1404,
+        "rate": 0.8148
+      },
+      {
+        "day": 20,
+        "events": 1152,
+        "opportunities": 1404,
+        "rate": 0.8205
+      },
+      {
+        "day": 21,
+        "events": 1143,
+        "opportunities": 1404,
+        "rate": 0.8141
+      },
+      {
+        "day": 22,
+        "events": 1078,
+        "opportunities": 1404,
+        "rate": 0.7678
+      },
+      {
+        "day": 23,
+        "events": 1197,
+        "opportunities": 1404,
+        "rate": 0.8526
+      },
+      {
+        "day": 24,
+        "events": 1103,
+        "opportunities": 1404,
+        "rate": 0.7856
+      },
+      {
+        "day": 25,
+        "events": 1090,
+        "opportunities": 1404,
+        "rate": 0.7764
+      },
+      {
+        "day": 26,
+        "events": 1121,
+        "opportunities": 1404,
+        "rate": 0.7984
+      },
+      {
+        "day": 27,
+        "events": 997,
+        "opportunities": 1404,
+        "rate": 0.7101
+      },
+      {
+        "day": 28,
+        "events": 1167,
+        "opportunities": 1404,
+        "rate": 0.8312
+      },
+      {
+        "day": 29,
+        "events": 1035,
+        "opportunities": 1315,
+        "rate": 0.7871
+      },
+      {
+        "day": 30,
+        "events": 974,
+        "opportunities": 1287,
+        "rate": 0.7568
+      },
+      {
+        "day": 31,
+        "events": 550,
+        "opportunities": 819,
+        "rate": 0.6716
+      }
+    ],
+    "6.0": [
+      {
+        "day": 1,
+        "events": 435,
+        "opportunities": 1404,
+        "rate": 0.3098
+      },
+      {
+        "day": 2,
+        "events": 414,
+        "opportunities": 1404,
+        "rate": 0.2949
+      },
+      {
+        "day": 3,
+        "events": 402,
+        "opportunities": 1404,
+        "rate": 0.2863
+      },
+      {
+        "day": 4,
+        "events": 441,
+        "opportunities": 1404,
+        "rate": 0.3141
+      },
+      {
+        "day": 5,
+        "events": 396,
+        "opportunities": 1404,
+        "rate": 0.2821
+      },
+      {
+        "day": 6,
+        "events": 430,
+        "opportunities": 1404,
+        "rate": 0.3063
+      },
+      {
+        "day": 7,
+        "events": 400,
+        "opportunities": 1404,
+        "rate": 0.2849
+      },
+      {
+        "day": 8,
+        "events": 397,
+        "opportunities": 1404,
+        "rate": 0.2828
+      },
+      {
+        "day": 9,
+        "events": 418,
+        "opportunities": 1404,
+        "rate": 0.2977
+      },
+      {
+        "day": 10,
+        "events": 394,
+        "opportunities": 1404,
+        "rate": 0.2806
+      },
+      {
+        "day": 11,
+        "events": 420,
+        "opportunities": 1404,
+        "rate": 0.2991
+      },
+      {
+        "day": 12,
+        "events": 408,
+        "opportunities": 1404,
+        "rate": 0.2906
+      },
+      {
+        "day": 13,
+        "events": 402,
+        "opportunities": 1404,
+        "rate": 0.2863
+      },
+      {
+        "day": 14,
+        "events": 443,
+        "opportunities": 1404,
+        "rate": 0.3155
+      },
+      {
+        "day": 15,
+        "events": 432,
+        "opportunities": 1404,
+        "rate": 0.3077
+      },
+      {
+        "day": 16,
+        "events": 400,
+        "opportunities": 1404,
+        "rate": 0.2849
+      },
+      {
+        "day": 17,
+        "events": 434,
+        "opportunities": 1404,
+        "rate": 0.3091
+      },
+      {
+        "day": 18,
+        "events": 406,
+        "opportunities": 1404,
+        "rate": 0.2892
+      },
+      {
+        "day": 19,
+        "events": 454,
+        "opportunities": 1404,
+        "rate": 0.3234
+      },
+      {
+        "day": 20,
+        "events": 434,
+        "opportunities": 1404,
+        "rate": 0.3091
+      },
+      {
+        "day": 21,
+        "events": 408,
+        "opportunities": 1404,
+        "rate": 0.2906
+      },
+      {
+        "day": 22,
+        "events": 437,
+        "opportunities": 1404,
+        "rate": 0.3113
+      },
+      {
+        "day": 23,
+        "events": 445,
+        "opportunities": 1404,
+        "rate": 0.317
+      },
+      {
+        "day": 24,
+        "events": 430,
+        "opportunities": 1404,
+        "rate": 0.3063
+      },
+      {
+        "day": 25,
+        "events": 419,
+        "opportunities": 1404,
+        "rate": 0.2984
+      },
+      {
+        "day": 26,
+        "events": 403,
+        "opportunities": 1404,
+        "rate": 0.287
+      },
+      {
+        "day": 27,
+        "events": 353,
+        "opportunities": 1404,
+        "rate": 0.2514
+      },
+      {
+        "day": 28,
+        "events": 436,
+        "opportunities": 1404,
+        "rate": 0.3105
+      },
+      {
+        "day": 29,
+        "events": 367,
+        "opportunities": 1315,
+        "rate": 0.2791
+      },
+      {
+        "day": 30,
+        "events": 349,
+        "opportunities": 1287,
+        "rate": 0.2712
+      },
+      {
+        "day": 31,
+        "events": 218,
+        "opportunities": 819,
+        "rate": 0.2662
+      }
+    ],
+    "6.5": [
+      {
+        "day": 1,
+        "events": 141,
+        "opportunities": 1404,
+        "rate": 0.1004
+      },
+      {
+        "day": 2,
+        "events": 128,
+        "opportunities": 1404,
+        "rate": 0.0912
+      },
+      {
+        "day": 3,
+        "events": 140,
+        "opportunities": 1404,
+        "rate": 0.0997
+      },
+      {
+        "day": 4,
+        "events": 134,
+        "opportunities": 1404,
+        "rate": 0.0954
+      },
+      {
+        "day": 5,
+        "events": 125,
+        "opportunities": 1404,
+        "rate": 0.089
+      },
+      {
+        "day": 6,
+        "events": 149,
+        "opportunities": 1404,
+        "rate": 0.1061
+      },
+      {
+        "day": 7,
+        "events": 150,
+        "opportunities": 1404,
+        "rate": 0.1068
+      },
+      {
+        "day": 8,
+        "events": 125,
+        "opportunities": 1404,
+        "rate": 0.089
+      },
+      {
+        "day": 9,
+        "events": 139,
+        "opportunities": 1404,
+        "rate": 0.099
+      },
+      {
+        "day": 10,
+        "events": 152,
+        "opportunities": 1404,
+        "rate": 0.1083
+      },
+      {
+        "day": 11,
+        "events": 123,
+        "opportunities": 1404,
+        "rate": 0.0876
+      },
+      {
+        "day": 12,
+        "events": 125,
+        "opportunities": 1404,
+        "rate": 0.089
+      },
+      {
+        "day": 13,
+        "events": 140,
+        "opportunities": 1404,
+        "rate": 0.0997
+      },
+      {
+        "day": 14,
+        "events": 147,
+        "opportunities": 1404,
+        "rate": 0.1047
+      },
+      {
+        "day": 15,
+        "events": 136,
+        "opportunities": 1404,
+        "rate": 0.0969
+      },
+      {
+        "day": 16,
+        "events": 141,
+        "opportunities": 1404,
+        "rate": 0.1004
+      },
+      {
+        "day": 17,
+        "events": 146,
+        "opportunities": 1404,
+        "rate": 0.104
+      },
+      {
+        "day": 18,
+        "events": 140,
+        "opportunities": 1404,
+        "rate": 0.0997
+      },
+      {
+        "day": 19,
+        "events": 147,
+        "opportunities": 1404,
+        "rate": 0.1047
+      },
+      {
+        "day": 20,
+        "events": 137,
+        "opportunities": 1404,
+        "rate": 0.0976
+      },
+      {
+        "day": 21,
+        "events": 130,
+        "opportunities": 1404,
+        "rate": 0.0926
+      },
+      {
+        "day": 22,
+        "events": 130,
+        "opportunities": 1404,
+        "rate": 0.0926
+      },
+      {
+        "day": 23,
+        "events": 150,
+        "opportunities": 1404,
+        "rate": 0.1068
+      },
+      {
+        "day": 24,
+        "events": 144,
+        "opportunities": 1404,
+        "rate": 0.1026
+      },
+      {
+        "day": 25,
+        "events": 133,
+        "opportunities": 1404,
+        "rate": 0.0947
+      },
+      {
+        "day": 26,
+        "events": 122,
+        "opportunities": 1404,
+        "rate": 0.0869
+      },
+      {
+        "day": 27,
+        "events": 113,
+        "opportunities": 1404,
+        "rate": 0.0805
+      },
+      {
+        "day": 28,
+        "events": 148,
+        "opportunities": 1404,
+        "rate": 0.1054
+      },
+      {
+        "day": 29,
+        "events": 127,
+        "opportunities": 1315,
+        "rate": 0.0966
+      },
+      {
+        "day": 30,
+        "events": 123,
+        "opportunities": 1287,
+        "rate": 0.0956
+      },
+      {
+        "day": 31,
+        "events": 72,
+        "opportunities": 819,
+        "rate": 0.0879
+      }
+    ],
+    "7.0": [
+      {
+        "day": 1,
+        "events": 51,
+        "opportunities": 1404,
+        "rate": 0.0363
+      },
+      {
+        "day": 2,
+        "events": 46,
+        "opportunities": 1404,
+        "rate": 0.0328
+      },
+      {
+        "day": 3,
+        "events": 39,
+        "opportunities": 1404,
+        "rate": 0.0278
+      },
+      {
+        "day": 4,
+        "events": 44,
+        "opportunities": 1404,
+        "rate": 0.0313
+      },
+      {
+        "day": 5,
+        "events": 49,
+        "opportunities": 1404,
+        "rate": 0.0349
+      },
+      {
+        "day": 6,
+        "events": 51,
+        "opportunities": 1404,
+        "rate": 0.0363
+      },
+      {
+        "day": 7,
+        "events": 40,
+        "opportunities": 1404,
+        "rate": 0.0285
+      },
+      {
+        "day": 8,
+        "events": 42,
+        "opportunities": 1404,
+        "rate": 0.0299
+      },
+      {
+        "day": 9,
+        "events": 50,
+        "opportunities": 1404,
+        "rate": 0.0356
+      },
+      {
+        "day": 10,
+        "events": 50,
+        "opportunities": 1404,
+        "rate": 0.0356
+      },
+      {
+        "day": 11,
+        "events": 46,
+        "opportunities": 1404,
+        "rate": 0.0328
+      },
+      {
+        "day": 12,
+        "events": 48,
+        "opportunities": 1404,
+        "rate": 0.0342
+      },
+      {
+        "day": 13,
+        "events": 32,
+        "opportunities": 1404,
+        "rate": 0.0228
+      },
+      {
+        "day": 14,
+        "events": 58,
+        "opportunities": 1404,
+        "rate": 0.0413
+      },
+      {
+        "day": 15,
+        "events": 51,
+        "opportunities": 1404,
+        "rate": 0.0363
+      },
+      {
+        "day": 16,
+        "events": 50,
+        "opportunities": 1404,
+        "rate": 0.0356
+      },
+      {
+        "day": 17,
+        "events": 54,
+        "opportunities": 1404,
+        "rate": 0.0385
+      },
+      {
+        "day": 18,
+        "events": 46,
+        "opportunities": 1404,
+        "rate": 0.0328
+      },
+      {
+        "day": 19,
+        "events": 46,
+        "opportunities": 1404,
+        "rate": 0.0328
+      },
+      {
+        "day": 20,
+        "events": 53,
+        "opportunities": 1404,
+        "rate": 0.0377
+      },
+      {
+        "day": 21,
+        "events": 42,
+        "opportunities": 1404,
+        "rate": 0.0299
+      },
+      {
+        "day": 22,
+        "events": 42,
+        "opportunities": 1404,
+        "rate": 0.0299
+      },
+      {
+        "day": 23,
+        "events": 51,
+        "opportunities": 1404,
+        "rate": 0.0363
+      },
+      {
+        "day": 24,
+        "events": 53,
+        "opportunities": 1404,
+        "rate": 0.0377
+      },
+      {
+        "day": 25,
+        "events": 54,
+        "opportunities": 1404,
+        "rate": 0.0385
+      },
+      {
+        "day": 26,
+        "events": 42,
+        "opportunities": 1404,
+        "rate": 0.0299
+      },
+      {
+        "day": 27,
+        "events": 36,
+        "opportunities": 1404,
+        "rate": 0.0256
+      },
+      {
+        "day": 28,
+        "events": 46,
+        "opportunities": 1404,
+        "rate": 0.0328
+      },
+      {
+        "day": 29,
+        "events": 43,
+        "opportunities": 1315,
+        "rate": 0.0327
+      },
+      {
+        "day": 30,
+        "events": 48,
+        "opportunities": 1287,
+        "rate": 0.0373
+      },
+      {
+        "day": 31,
+        "events": 27,
+        "opportunities": 819,
+        "rate": 0.033
+      }
+    ],
+    "7.5": [
+      {
+        "day": 1,
+        "events": 23,
+        "opportunities": 1404,
+        "rate": 0.0164
+      },
+      {
+        "day": 2,
+        "events": 15,
+        "opportunities": 1404,
+        "rate": 0.0107
+      },
+      {
+        "day": 3,
+        "events": 14,
+        "opportunities": 1404,
+        "rate": 0.01
+      },
+      {
+        "day": 4,
+        "events": 17,
+        "opportunities": 1404,
+        "rate": 0.0121
+      },
+      {
+        "day": 5,
+        "events": 11,
+        "opportunities": 1404,
+        "rate": 0.0078
+      },
+      {
+        "day": 6,
+        "events": 18,
+        "opportunities": 1404,
+        "rate": 0.0128
+      },
+      {
+        "day": 7,
+        "events": 12,
+        "opportunities": 1404,
+        "rate": 0.0085
+      },
+      {
+        "day": 8,
+        "events": 15,
+        "opportunities": 1404,
+        "rate": 0.0107
+      },
+      {
+        "day": 9,
+        "events": 18,
+        "opportunities": 1404,
+        "rate": 0.0128
+      },
+      {
+        "day": 10,
+        "events": 20,
+        "opportunities": 1404,
+        "rate": 0.0142
+      },
+      {
+        "day": 11,
+        "events": 8,
+        "opportunities": 1404,
+        "rate": 0.0057
+      },
+      {
+        "day": 12,
+        "events": 15,
+        "opportunities": 1404,
+        "rate": 0.0107
+      },
+      {
+        "day": 13,
+        "events": 4,
+        "opportunities": 1404,
+        "rate": 0.0028
+      },
+      {
+        "day": 14,
+        "events": 18,
+        "opportunities": 1404,
+        "rate": 0.0128
+      },
+      {
+        "day": 15,
+        "events": 17,
+        "opportunities": 1404,
+        "rate": 0.0121
+      },
+      {
+        "day": 16,
+        "events": 16,
+        "opportunities": 1404,
+        "rate": 0.0114
+      },
+      {
+        "day": 17,
+        "events": 21,
+        "opportunities": 1404,
+        "rate": 0.015
+      },
+      {
+        "day": 18,
+        "events": 11,
+        "opportunities": 1404,
+        "rate": 0.0078
+      },
+      {
+        "day": 19,
+        "events": 14,
+        "opportunities": 1404,
+        "rate": 0.01
+      },
+      {
+        "day": 20,
+        "events": 16,
+        "opportunities": 1404,
+        "rate": 0.0114
+      },
+      {
+        "day": 21,
+        "events": 11,
+        "opportunities": 1404,
+        "rate": 0.0078
+      },
+      {
+        "day": 22,
+        "events": 15,
+        "opportunities": 1404,
+        "rate": 0.0107
+      },
+      {
+        "day": 23,
+        "events": 12,
+        "opportunities": 1404,
+        "rate": 0.0085
+      },
+      {
+        "day": 24,
+        "events": 11,
+        "opportunities": 1404,
+        "rate": 0.0078
+      },
+      {
+        "day": 25,
+        "events": 15,
+        "opportunities": 1404,
+        "rate": 0.0107
+      },
+      {
+        "day": 26,
+        "events": 18,
+        "opportunities": 1404,
+        "rate": 0.0128
+      },
+      {
+        "day": 27,
+        "events": 8,
+        "opportunities": 1404,
+        "rate": 0.0057
+      },
+      {
+        "day": 28,
+        "events": 15,
+        "opportunities": 1404,
+        "rate": 0.0107
+      },
+      {
+        "day": 29,
+        "events": 12,
+        "opportunities": 1315,
+        "rate": 0.0091
+      },
+      {
+        "day": 30,
+        "events": 16,
+        "opportunities": 1287,
+        "rate": 0.0124
+      },
+      {
+        "day": 31,
+        "events": 6,
+        "opportunities": 819,
+        "rate": 0.0073
+      }
+    ],
+    "8.0": [
+      {
+        "day": 1,
+        "events": 5,
+        "opportunities": 1404,
+        "rate": 0.0036
+      },
+      {
+        "day": 2,
+        "events": 2,
+        "opportunities": 1404,
+        "rate": 0.0014
+      },
+      {
+        "day": 3,
+        "events": 3,
+        "opportunities": 1404,
+        "rate": 0.0021
+      },
+      {
+        "day": 4,
+        "events": 9,
+        "opportunities": 1404,
+        "rate": 0.0064
+      },
+      {
+        "day": 5,
+        "events": 1,
+        "opportunities": 1404,
+        "rate": 0.0007
+      },
+      {
+        "day": 6,
+        "events": 4,
+        "opportunities": 1404,
+        "rate": 0.0028
+      },
+      {
+        "day": 7,
+        "events": 3,
+        "opportunities": 1404,
+        "rate": 0.0021
+      },
+      {
+        "day": 8,
+        "events": 1,
+        "opportunities": 1404,
+        "rate": 0.0007
+      },
+      {
+        "day": 9,
+        "events": 4,
+        "opportunities": 1404,
+        "rate": 0.0028
+      },
+      {
+        "day": 10,
+        "events": 2,
+        "opportunities": 1404,
+        "rate": 0.0014
+      },
+      {
+        "day": 11,
+        "events": 2,
+        "opportunities": 1404,
+        "rate": 0.0014
+      },
+      {
+        "day": 12,
+        "events": 2,
+        "opportunities": 1404,
+        "rate": 0.0014
+      },
+      {
+        "day": 13,
+        "events": 2,
+        "opportunities": 1404,
+        "rate": 0.0014
+      },
+      {
+        "day": 14,
+        "events": 4,
+        "opportunities": 1404,
+        "rate": 0.0028
+      },
+      {
+        "day": 15,
+        "events": 4,
+        "opportunities": 1404,
+        "rate": 0.0028
+      },
+      {
+        "day": 16,
+        "events": 1,
+        "opportunities": 1404,
+        "rate": 0.0007
+      },
+      {
+        "day": 17,
+        "events": 4,
+        "opportunities": 1404,
+        "rate": 0.0028
+      },
+      {
+        "day": 18,
+        "events": 1,
+        "opportunities": 1404,
+        "rate": 0.0007
+      },
+      {
+        "day": 19,
+        "events": 3,
+        "opportunities": 1404,
+        "rate": 0.0021
+      },
+      {
+        "day": 20,
+        "events": 2,
+        "opportunities": 1404,
+        "rate": 0.0014
+      },
+      {
+        "day": 21,
+        "events": 2,
+        "opportunities": 1404,
+        "rate": 0.0014
+      },
+      {
+        "day": 22,
+        "events": 2,
+        "opportunities": 1404,
+        "rate": 0.0014
+      },
+      {
+        "day": 23,
+        "events": 4,
+        "opportunities": 1404,
+        "rate": 0.0028
+      },
+      {
+        "day": 24,
+        "events": 4,
+        "opportunities": 1404,
+        "rate": 0.0028
+      },
+      {
+        "day": 25,
+        "events": 2,
+        "opportunities": 1404,
+        "rate": 0.0014
+      },
+      {
+        "day": 26,
+        "events": 5,
+        "opportunities": 1404,
+        "rate": 0.0036
+      },
+      {
+        "day": 27,
+        "events": 2,
+        "opportunities": 1404,
+        "rate": 0.0014
+      },
+      {
+        "day": 28,
+        "events": 1,
+        "opportunities": 1404,
+        "rate": 0.0007
+      },
+      {
+        "day": 29,
+        "events": 2,
+        "opportunities": 1315,
+        "rate": 0.0015
+      },
+      {
+        "day": 30,
+        "events": 2,
+        "opportunities": 1287,
+        "rate": 0.0016
+      },
+      {
+        "day": 31,
+        "events": 2,
+        "opportunities": 819,
+        "rate": 0.0024
+      }
+    ]
+  }
+}
